@@ -1,7 +1,7 @@
 import express from 'express';
 import { createServer } from 'node:http';
 import { Server } from 'socket.io';
-import ScrollManager from './ScrollManager';
+import ScrollManager from './ScrollManager.js';
 import { ClientToServerEvents, InterServerEvents, ServerToClientEvents, SocketData } from '../../interface/Socket';
 import { ScrollUpdate } from '../../interface/Scroll';
 
