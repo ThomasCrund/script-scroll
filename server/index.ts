@@ -1,6 +1,7 @@
 import express from 'express';
 import { createServer } from 'node:http';
 import { Server } from 'socket.io';
+import ScrollManager from './ScrollManager';
 
 const app = express();
 const server = createServer(app);
@@ -9,13 +10,18 @@ const io = new Server(server, {
         origin: "http://localhost:3000"
     }
 });
+const scrollManager = new ScrollManager();
 
 app.get('/', (req, res) => {
   res.send('<h1>Hello world</h1>');
 });
 
 io.on('connection', (socket) => {
-    console.log('a user connected');
+    console.log('a user connected', socket.id);
+    socket.on('scroll', (msg) => {
+      scrollManager.updateScroll(socket.id, msg);
+      io.emit('scroll', scrollManager.toJSON());
+    })
 });
 
 server.listen(4000, () => {

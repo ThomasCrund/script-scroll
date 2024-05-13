@@ -1,5 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { socket } from './socket';
+import Sample from './Sample';
+import Test from './Test';
 
 function App(): React.JSX.Element {
   const [isConnected, setIsConnected] = useState(socket.connected);
@@ -25,6 +27,8 @@ function App(): React.JSX.Element {
   return (
     <div className="App">
       Server is {isConnected ? "Connected": "Not Connected"}
+      {/* <Sample /> */}
+      <Test />
     </div>
   );
 }
