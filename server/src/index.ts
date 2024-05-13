@@ -2,10 +2,12 @@ import express from 'express';
 import { createServer } from 'node:http';
 import { Server } from 'socket.io';
 import ScrollManager from './ScrollManager';
+import { ClientToServerEvents, InterServerEvents, ServerToClientEvents, SocketData } from '../../interface/Socket';
+import { ScrollUpdate } from '../../interface/Scroll';
 
 const app = express();
 const server = createServer(app);
-const io = new Server(server, {
+const io = new Server<ClientToServerEvents, ServerToClientEvents, InterServerEvents, SocketData>(server, {
     cors: {
         origin: "http://localhost:3000"
     }
@@ -18,10 +20,11 @@ app.get('/', (req, res) => {
 
 io.on('connection', (socket) => {
     console.log('a user connected', socket.id);
-    socket.on('scroll', (msg) => {
-      scrollManager.updateScroll(socket.id, msg);
-      io.emit('scroll', scrollManager.toJSON());
-    })
+
+    socket.on('scrollUpdate', (scrollData: ScrollUpdate) => {
+      scrollManager.updateScroll(socket.id, scrollData);
+      io.emit('scrollInformation', scrollManager.toScrollInformation());
+    });
 });
 
 server.listen(4000, () => {

@@ -5,7 +5,7 @@ export type ScrollMode = "Driving" | "Following" | "Inspecting";
 // Client to server update on scroll information
 export interface ScrollUpdate {
     timeStampClient: number;
-    timeStampServer: number;
+    timeStampServer?: number;
     scrollMode: ScrollMode;
     // Driving: controlling the master
     // Following: Following the master won't have a current position
@@ -13,6 +13,8 @@ export interface ScrollUpdate {
     newScrollPosition: number;
     lastScrollPosition: number;
     lastScrollServerTimeStamp: number;
+    force?: boolean;
+    uid?: UID;
 }
 
 export interface ScrollMaster {
@@ -29,7 +31,7 @@ export interface ScrollInformation {
 
 export interface UserScroll {
     scrollMode: ScrollMode;
-    scrollPosition: number;
+    scrollPosition: number | null;
     uid: UID;
 
 }
