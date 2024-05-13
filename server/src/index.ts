@@ -9,7 +9,7 @@ const app = express();
 const server = createServer(app);
 const io = new Server<ClientToServerEvents, ServerToClientEvents, InterServerEvents, SocketData>(server, {
     cors: {
-        origin: "http://localhost:3000"
+        origin: ["http://localhost:3000", "http://192.168.0.20:3000"]
     }
 });
 const scrollManager = new ScrollManager();

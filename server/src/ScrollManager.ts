@@ -32,7 +32,7 @@ export default class ScrollManager {
                 break;
             case "Following":
             case "Inspecting":
-                if (this.users[uid]?.pastUpdates[-1].scrollMode == "Driving") {
+                if (this.users[uid]?.pastUpdates[-1]?.scrollMode === "Driving") {
                     this.master.controllers = this.master.controllers.slice(this.master.controllers.indexOf(uid), 1);
                 }
                 this.updateUserScrollInfo(uid, scrollData);
@@ -43,6 +43,8 @@ export default class ScrollManager {
     }
 
     updateMasterScroll(uid: UID, scrollData: ScrollUpdate) {
+        this.setMasterScroll(uid, scrollData);
+        return;
         if (scrollData.force ?? false) {
             this.setMasterScroll(uid, scrollData);
             return;
