@@ -9,7 +9,7 @@ const app = express();
 const server = createServer(app);
 const io = new Server<ClientToServerEvents, ServerToClientEvents, InterServerEvents, SocketData>(server, {
     cors: {
-        origin: ["http://localhost:3000", "http://192.168.0.20:3000"]
+        origin: ["http://localhost:3000", "http://192.168.122.35:3000"]
     }
 });
 const scrollManager = new ScrollManager();
@@ -20,6 +20,7 @@ app.get('/', (req, res) => {
 
 io.on('connection', (socket) => {
     console.log('a user connected', socket.id);
+    socket.emit('scrollInformation', scrollManager.toScrollInformation());
 
     socket.on('scrollUpdate', (scrollData: ScrollUpdate) => {
       scrollManager.updateScroll(socket.id, scrollData);
