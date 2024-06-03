@@ -1,6 +1,6 @@
 import React, { WheelEvent, useEffect, useState } from 'react'
 import { pdfjs, Document, Page } from 'react-pdf';
-import { ScrollData } from './Test';
+import { ScrollData } from './ScrollWindow';
 import type { PDFDocumentProxy } from 'pdfjs-dist';
 
 pdfjs.GlobalWorkerOptions.workerSrc = new URL(

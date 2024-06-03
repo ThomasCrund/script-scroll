@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { socket } from './socket';
-import Sample from './Sample';
-import Test from './Test';
+import ScrollWindow from './scroll/ScrollWindow';
 
 function App(): React.JSX.Element {
   const [isConnected, setIsConnected] = useState(socket.connected);
@@ -28,7 +27,7 @@ function App(): React.JSX.Element {
     <div className="App">
       Server is {isConnected ? "Connected": "Not Connected"}
       {/* <Sample /> */}
-      <Test />
+      <ScrollWindow />
     </div>
   );
 }
