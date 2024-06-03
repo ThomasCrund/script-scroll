@@ -1,0 +1,4255 @@
+{
+  "numPages": 247,
+  "pages": [],
+  "acts": [
+    {
+      "actNumber": 1,
+      "startPosition": 6.104533585858586,
+      "scenes": [
+        {
+          "sceneNumber": 1,
+          "startPosition": 6.121806313131313,
+          "elements": [
+            {
+              "str": "SCENE 1:",
+              "position": 6.121806313131313
+            },
+            {
+              "str": "#1 OVERTURE/PROLOGUE",
+              "position": 6.159382070707071
+            },
+            {
+              "str": "ANCESTRAL VOICES",
+              "position": 6.316957828282828
+            },
+            {
+              "str": "GOMEZ",
+              "position": 6.419685101010101
+            },
+            {
+              "str": "MORTICIA",
+              "position": 6.67907904040404
+            },
+            {
+              "str": "GOMEZ",
+              "position": 6.730594191919192
+            },
+            {
+              "str": "#2 WHEN YOU'RE AN ADDAMS",
+              "position": 6.803018434343434
+            },
+            {
+              "str": "GOMEZ (CON’T)",
+              "position": 7.104533585858586
+            },
+            {
+              "str": "MORTICIA",
+              "position": 7.173321464646465
+            },
+            {
+              "str": "GOMEZ & MORTICIA",
+              "position": 7.224533585858586
+            },
+            {
+              "str": "GOMEZ",
+              "position": 7.2760487373737375
+            },
+            {
+              "str": "GOMEZ & MORTICIA",
+              "position": 7.362109343434343
+            },
+            {
+              "str": "MORTICIA",
+              "position": 7.413624494949495
+            },
+            {
+              "str": "GOMEZ & MORTICIA",
+              "position": 7.464836616161616
+            },
+            {
+              "str": "GOMEZ",
+              "position": 7.5678669191919195
+            },
+            {
+              "str": "MORTICIA",
+              "position": 7.621806313131313
+            },
+            {
+              "str": "GOMEZ",
+              "position": 7.673321464646465
+            },
+            {
+              "str": "MORTICIA",
+              "position": 7.742109343434343
+            },
+            {
+              "str": "GOMEZ",
+              "position": 7.793321464646465
+            },
+            {
+              "str": "MORTICIA",
+              "position": 7.847260858585859
+            },
+            {
+              "str": "ADDAMS FAMILY",
+              "position": 8.104533585858587
+            },
+            {
+              "str": "GOMEZ",
+              "position": 8.156048737373737
+            },
+            {
+              "str": "ADDAMS FAMILY",
+              "position": 8.207563888888888
+            },
+            {
+              "str": "MORTICIA",
+              "position": 8.25907904040404
+            },
+            {
+              "str": "GOMEZ",
+              "position": 8.310594191919192
+            },
+            {
+              "str": "ADDAMS FAMILY",
+              "position": 8.37907904040404
+            },
+            {
+              "str": "FESTER & GRANDMA",
+              "position": 8.430594191919191
+            },
+            {
+              "str": "ADDAMS FAMILY",
+              "position": 8.516351767676767
+            },
+            {
+              "str": "WEDNESDAY",
+              "position": 8.602412373737373
+            },
+            {
+              "str": "ADDAMS FAMILY",
+              "position": 8.705745707070706
+            },
+            {
+              "str": "PUGSLEY",
+              "position": 8.757260858585859
+            },
+            {
+              "str": "GRANDMA",
+              "position": 8.860291161616162
+            },
+            {
+              "str": "FESTER",
+              "position": 9.104533585858587
+            },
+            {
+              "str": "WEDNESDAY/GRANDMA/PUGSLEY",
+              "position": 9.156048737373737
+            },
+            {
+              "str": "ADDAMS FAMILY (NO FESTER)",
+              "position": 9.207563888888888
+            },
+            {
+              "str": "ADDAMS FAMILY & FESTER",
+              "position": 9.25907904040404
+            },
+            {
+              "str": "GOMEZ",
+              "position": 9.37907904040404
+            },
+            {
+              "str": "MORTICIA",
+              "position": 9.447866919191918
+            },
+            {
+              "str": "GOMEZ",
+              "position": 9.499382070707071
+            },
+            {
+              "str": "FESTER",
+              "position": 9.550897222222222
+            },
+            {
+              "str": "GOMEZ",
+              "position": 9.602412373737373
+            },
+            {
+              "str": "ANCESTORS",
+              "position": 9.774533585858586
+            },
+            {
+              "str": "CONQUISTADOR ANCESTOR",
+              "position": 9.860291161616162
+            },
+            {
+              "str": "CAVEMAN ANCESTOR",
+              "position": 10.104533585858587
+            },
+            {
+              "str": "CONQUISTADOR & CAVEMAN",
+              "position": 10.156048737373737
+            },
+            {
+              "str": "SOLDIER ANCESTOR & SALOON GIRL ANCESTOR",
+              "position": 10.207563888888888
+            },
+            {
+              "str": "ANCESTORS",
+              "position": 10.293321464646464
+            },
+            {
+              "str": "GOMEZ",
+              "position": 10.37907904040404
+            },
+            {
+              "str": "ALL",
+              "position": 10.482109343434344
+            },
+            {
+              "str": "MALE ANCESTORS",
+              "position": 10.61938207070707
+            },
+            {
+              "str": "ADDAMS & FEMALE ANCESTORS",
+              "position": 10.670897222222223
+            },
+            {
+              "str": "MALE ANCESTORS",
+              "position": 10.722412373737374
+            },
+            {
+              "str": "ADDAMS FAMILY & FEMALE ANCESTORS",
+              "position": 10.773927525252525
+            },
+            {
+              "str": "ALL",
+              "position": 10.8596851010101
+            },
+            {
+              "str": "ALL (CON’T)",
+              "position": 11.104533585858587
+            },
+            {
+              "str": "GOMEZ",
+              "position": 11.25907904040404
+            },
+            {
+              "str": "#2A (WE HAVE) A PROBLEM",
+              "position": 11.313927525252526
+            },
+            {
+              "str": "CONQUISTADOR ANCESTOR",
+              "position": 11.436957828282829
+            },
+            {
+              "str": "FESTER",
+              "position": 11.522715404040405
+            },
+            {
+              "str": "WEDNESDAY",
+              "position": 11.625745707070706
+            },
+            {
+              "str": "FESTER",
+              "position": 11.694533585858586
+            },
+            {
+              "str": "LUCAS",
+              "position": 11.831806313131313
+            },
+            {
+              "str": "WEDNESDAY",
+              "position": 12.104533585858587
+            },
+            {
+              "str": "FESTER",
+              "position": 12.242412373737373
+            },
+            {
+              "str": "ANCESTORS",
+              "position": 12.311200252525252
+            },
+            {
+              "str": "FESTER",
+              "position": 12.362715404040404
+            },
+            {
+              "str": "#3 FESTER'S MANIFESTO",
+              "position": 12.589685101010101
+            }
+          ]
+        },
+        {
+          "sceneNumber": 2,
+          "startPosition": 13.104533585858587,
+          "elements": [
+            {
+              "str": "SCENE 2",
+              "position": 13.104533585858587
+            },
+            {
+              "str": "GOMEZ",
+              "position": 13.25907904040404
+            },
+            {
+              "str": "MORTICIA",
+              "position": 13.447866919191918
+            },
+            {
+              "str": "GOMEZ",
+              "position": 13.499382070707071
+            },
+            {
+              "str": "MORTICIA",
+              "position": 13.550897222222222
+            },
+            {
+              "str": "GOMEZ",
+              "position": 13.670897222222223
+            },
+            {
+              "str": "MORTICIA",
+              "position": 13.773927525252525
+            },
+            {
+              "str": "GOMEZ",
+              "position": 13.842715404040405
+            },
+            {
+              "str": "MORTICIA",
+              "position": 14.104533585858587
+            },
+            {
+              "str": "GOMEZ",
+              "position": 14.156048737373737
+            },
+            {
+              "str": "MORTICIA",
+              "position": 14.207563888888888
+            },
+            {
+              "str": "GOMEZ",
+              "position": 14.25907904040404
+            },
+            {
+              "str": "MORTICIA",
+              "position": 14.344836616161617
+            },
+            {
+              "str": "WEDNESDAY",
+              "position": 14.499988131313131
+            },
+            {
+              "str": "MORTICIA",
+              "position": 14.551503282828282
+            },
+            {
+              "str": "WEDNESDAY",
+              "position": 14.619988131313132
+            },
+            {
+              "str": "MORTICIA",
+              "position": 14.671503282828283
+            },
+            {
+              "str": "WEDNESDAY",
+              "position": 14.826654797979797
+            },
+            {
+              "str": "GOMEZ",
+              "position": 14.87816994949495
+            },
+            {
+              "str": "WEDNESDAY",
+              "position": 15.104533585858587
+            },
+            {
+              "str": "GOMEZ",
+              "position": 15.207563888888888
+            },
+            {
+              "str": "WEDNESDAY",
+              "position": 15.25907904040404
+            },
+            {
+              "str": "GOMEZ",
+              "position": 15.310594191919192
+            },
+            {
+              "str": "WEDNESDAY",
+              "position": 15.413624494949495
+            },
+            {
+              "str": "GOMEZ",
+              "position": 15.464836616161616
+            },
+            {
+              "str": "WEDNESDAY",
+              "position": 15.516351767676767
+            },
+            {
+              "str": "GOMEZ",
+              "position": 15.56786691919192
+            },
+            {
+              "str": "WEDNESDAY",
+              "position": 15.61938207070707
+            },
+            {
+              "str": "GOMEZ",
+              "position": 15.670897222222223
+            },
+            {
+              "str": "WEDNESDAY",
+              "position": 15.722412373737374
+            },
+            {
+              "str": "GOMEZ",
+              "position": 15.791200252525252
+            },
+            {
+              "str": "WEDNESDAY",
+              "position": 15.842715404040405
+            },
+            {
+              "str": "GOMEZ",
+              "position": 16.104533585858587
+            },
+            {
+              "str": "WEDNESDAY",
+              "position": 16.156048737373737
+            },
+            {
+              "str": "GOMEZ",
+              "position": 16.207563888888888
+            },
+            {
+              "str": "WEDNESDAY",
+              "position": 16.27604873737374
+            },
+            {
+              "str": "GOMEZ",
+              "position": 16.32756388888889
+            },
+            {
+              "str": "WEDNESDAY",
+              "position": 16.37907904040404
+            },
+            {
+              "str": "GOMEZ",
+              "position": 16.43059419191919
+            },
+            {
+              "str": "WEDNESDAY",
+              "position": 16.48210934343434
+            },
+            {
+              "str": "GOMEZ",
+              "position": 16.550897222222222
+            },
+            {
+              "str": "WEDNESDAY",
+              "position": 16.619382070707072
+            },
+            {
+              "str": "GOMEZ",
+              "position": 16.670897222222223
+            },
+            {
+              "str": "WEDNESDAY",
+              "position": 16.722412373737374
+            },
+            {
+              "str": "GOMEZ",
+              "position": 16.791200252525254
+            },
+            {
+              "str": "WEDNESDAY",
+              "position": 16.842715404040405
+            },
+            {
+              "str": "GOMEZ",
+              "position": 17.104533585858587
+            },
+            {
+              "str": "WEDNESDAY",
+              "position": 17.156048737373737
+            },
+            {
+              "str": "#3A TWO THINGS",
+              "position": 17.245139646464647
+            },
+            {
+              "str": "GOMEZ",
+              "position": 17.282412373737372
+            },
+            {
+              "str": "WEDNESDAY",
+              "position": 17.454230555555554
+            },
+            {
+              "str": "GOMEZ",
+              "position": 17.53998813131313
+            },
+            {
+              "str": "WEDNESDAY",
+              "position": 17.59150328282828
+            },
+            {
+              "str": "GOMEZ",
+              "position": 17.677260858585857
+            },
+            {
+              "str": "#4 WEDNESDAY'S GROWING UP",
+              "position": 17.766351767676767
+            },
+            {
+              "str": "GOMEZ (CON’T)",
+              "position": 18.104533585858587
+            },
+            {
+              "str": "MORTICIA",
+              "position": 18.32756388888889
+            },
+            {
+              "str": "GOMEZ",
+              "position": 18.37907904040404
+            },
+            {
+              "str": "MORTICIA",
+              "position": 18.43059419191919
+            },
+            {
+              "str": "GOMEZ",
+              "position": 18.49938207070707
+            },
+            {
+              "str": "MORTICIA",
+              "position": 18.619382070707072
+            },
+            {
+              "str": "GOMEZ",
+              "position": 18.670897222222223
+            },
+            {
+              "str": "MORTICIA",
+              "position": 18.773927525252525
+            },
+            {
+              "str": "GOMEZ",
+              "position": 18.842715404040405
+            },
+            {
+              "str": "MORTICIA",
+              "position": 19.104533585858587
+            },
+            {
+              "str": "GOMEZ",
+              "position": 19.156048737373737
+            },
+            {
+              "str": "MORTICIA",
+              "position": 19.207563888888888
+            },
+            {
+              "str": "GOMEZ",
+              "position": 19.25907904040404
+            },
+            {
+              "str": "MORTICIA",
+              "position": 19.32756388888889
+            },
+            {
+              "str": "#5 TRAPPED",
+              "position": 19.433927525252525
+            },
+            {
+              "str": "GOMEZ",
+              "position": 19.471200252525254
+            },
+            {
+              "str": "MORTICIA",
+              "position": 19.625745707070706
+            },
+            {
+              "str": "GOMEZ",
+              "position": 19.677260858585857
+            },
+            {
+              "str": "MORTICIA",
+              "position": 19.72877601010101
+            },
+            {
+              "str": "GOMEZ",
+              "position": 19.780291161616162
+            },
+            {
+              "str": "MORTICIA",
+              "position": 19.831806313131313
+            },
+            {
+              "str": "GOMEZ",
+              "position": 20.104533585858587
+            },
+            {
+              "str": "MORTICIA",
+              "position": 20.173321464646463
+            },
+            {
+              "str": "GOMEZ",
+              "position": 20.27604873737374
+            },
+            {
+              "str": "GOMEZ (CON’T)",
+              "position": 21.104533585858587
+            }
+          ]
+        },
+        {
+          "sceneNumber": 3,
+          "startPosition": 22.104533585858587,
+          "elements": [
+            {
+              "str": "SCENE 3",
+              "position": 22.104533585858587
+            },
+            {
+              "str": "#5A HONOR ROLL",
+              "position": 22.245139646464647
+            },
+            {
+              "str": "PUGSLEY",
+              "position": 22.282412373737372
+            },
+            {
+              "str": "WEDNESDAY",
+              "position": 22.471200252525254
+            },
+            {
+              "str": "PUGSLEY",
+              "position": 22.522715404040405
+            },
+            {
+              "str": "WEDNESDAY",
+              "position": 22.574230555555555
+            },
+            {
+              "str": "#6 PULLED",
+              "position": 22.714836616161616
+            },
+            {
+              "str": "WEDNESDAY (CON’T)",
+              "position": 23.156048737373737
+            },
+            {
+              "str": "PUGSLEY",
+              "position": 23.516351767676767
+            },
+            {
+              "str": "WEDNESDAY",
+              "position": 23.585139646464647
+            },
+            {
+              "str": "PUGSLEY",
+              "position": 23.80816994949495
+            },
+            {
+              "str": "WEDNESDAY",
+              "position": 23.8596851010101
+            },
+            {
+              "str": "PUGSLEY",
+              "position": 24.104533585858587
+            },
+            {
+              "str": "WEDNESDAY",
+              "position": 24.156048737373737
+            },
+            {
+              "str": "PUGSLEY",
+              "position": 24.207563888888888
+            },
+            {
+              "str": "WEDNESDAY",
+              "position": 24.25907904040404
+            },
+            {
+              "str": "PUGSLEY",
+              "position": 24.344836616161615
+            },
+            {
+              "str": "WEDNESDAY",
+              "position": 24.396351767676766
+            },
+            {
+              "str": "PUGSLEY",
+              "position": 24.550897222222222
+            },
+            {
+              "str": "WEDNESDAY",
+              "position": 24.602412373737373
+            },
+            {
+              "str": "PUGSLEY",
+              "position": 24.653927525252524
+            },
+            {
+              "str": "WEDNESDAY",
+              "position": 24.705139646464648
+            },
+            {
+              "str": "PUGSLEY",
+              "position": 24.7566547979798
+            },
+            {
+              "str": "WEDNESDAY",
+              "position": 24.80816994949495
+            },
+            {
+              "str": "WEDNESDAY (CON’T)",
+              "position": 25.104533585858587
+            },
+            {
+              "str": "MORTICIA",
+              "position": 25.516957828282827
+            },
+            {
+              "str": "GOMEZ",
+              "position": 25.57029116161616
+            },
+            {
+              "str": "MORTICIA",
+              "position": 25.621806313131312
+            },
+            {
+              "str": "GOMEZ",
+              "position": 25.690594191919192
+            },
+            {
+              "str": "MORTICIA",
+              "position": 25.742109343434343
+            },
+            {
+              "str": "GOMEZ",
+              "position": 25.793321464646464
+            },
+            {
+              "str": "MORTICIA",
+              "position": 25.844836616161615
+            },
+            {
+              "str": "GOMEZ",
+              "position": 26.104533585858587
+            },
+            {
+              "str": "MORTICIA",
+              "position": 26.156048737373737
+            },
+            {
+              "str": "GOMEZ",
+              "position": 26.224533585858588
+            },
+            {
+              "str": "MORTICIA",
+              "position": 26.27604873737374
+            },
+            {
+              "str": "#6A FOUR THINGS",
+              "position": 26.382412373737374
+            },
+            {
+              "str": "GOMEZ",
+              "position": 26.419685101010103
+            },
+            {
+              "str": "MORTICIA",
+              "position": 26.471200252525254
+            },
+            {
+              "str": "GOMEZ",
+              "position": 26.55695782828283
+            },
+            {
+              "str": "MORTICIA",
+              "position": 26.60847297979798
+            },
+            {
+              "str": "GOMEZ",
+              "position": 26.65998813131313
+            },
+            {
+              "str": "MORTICIA",
+              "position": 26.711503282828282
+            },
+            {
+              "str": "GOMEZ",
+              "position": 26.780291161616162
+            },
+            {
+              "str": "MORTICIA",
+              "position": 26.831806313131313
+            },
+            {
+              "str": "WEDNESDAY",
+              "position": 27.190897222222222
+            },
+            {
+              "str": "MORTICIA",
+              "position": 27.414230555555555
+            },
+            {
+              "str": "GOMEZ",
+              "position": 27.465442676767676
+            },
+            {
+              "str": "WEDNESDAY",
+              "position": 27.534230555555556
+            },
+            {
+              "str": "GOMEZ",
+              "position": 27.585745707070707
+            },
+            {
+              "str": "WEDNESDAY",
+              "position": 27.637260858585858
+            },
+            {
+              "str": "GOMEZ",
+              "position": 27.774533585858585
+            },
+            {
+              "str": "WEDNESDAY",
+              "position": 27.82604873737374
+            },
+            {
+              "str": "GOMEZ",
+              "position": 28.104533585858587
+            },
+            {
+              "str": "WEDNESDAY",
+              "position": 28.224533585858588
+            },
+            {
+              "str": "MORTICIA",
+              "position": 28.27604873737374
+            },
+            {
+              "str": "WEDNESDAY",
+              "position": 28.44786691919192
+            },
+            {
+              "str": "MORTICIA",
+              "position": 28.49938207070707
+            },
+            {
+              "str": "WEDNESDAY",
+              "position": 28.602412373737373
+            },
+            {
+              "str": "MORTICIA",
+              "position": 28.653927525252524
+            },
+            {
+              "str": "GOMEZ",
+              "position": 28.705139646464648
+            },
+            {
+              "str": "WEDNESDAY",
+              "position": 28.773927525252525
+            },
+            {
+              "str": "GRANDMA",
+              "position": 28.825442676767675
+            },
+            {
+              "str": "MORTICIA",
+              "position": 29.104533585858587
+            },
+            {
+              "str": "WEDNESDAY",
+              "position": 29.173321464646463
+            },
+            {
+              "str": "#7 ONE NORMAL NIGHT",
+              "position": 29.227867424242426
+            },
+            {
+              "str": "MORTICIA",
+              "position": 29.59150328282828
+            },
+            {
+              "str": "WEDNESDAY",
+              "position": 29.643018434343436
+            },
+            {
+              "str": "GOMEZ",
+              "position": 29.711503282828282
+            },
+            {
+              "str": "WEDNESDAY",
+              "position": 29.763018434343433
+            },
+            {
+              "str": "WEDNESDAY (CON’T)",
+              "position": 30.104533585858587
+            }
+          ]
+        },
+        {
+          "sceneNumber": 4,
+          "startPosition": 31.104533585858587,
+          "elements": [
+            {
+              "str": "SCENE 4",
+              "position": 31.104533585858587
+            },
+            {
+              "str": "ANCESTORS",
+              "position": 31.293321464646464
+            },
+            {
+              "str": "MAL",
+              "position": 31.37907904040404
+            },
+            {
+              "str": "ALICE",
+              "position": 31.43059419191919
+            },
+            {
+              "str": "MAL",
+              "position": 31.48210934343434
+            },
+            {
+              "str": "ALICE",
+              "position": 31.550897222222222
+            },
+            {
+              "str": "LUCAS",
+              "position": 31.636654797979798
+            },
+            {
+              "str": "MAL & ALICE",
+              "position": 31.68816994949495
+            },
+            {
+              "str": "LUCAS",
+              "position": 31.7396851010101
+            },
+            {
+              "str": "MAL",
+              "position": 31.842715404040405
+            },
+            {
+              "str": "LUCAS",
+              "position": 32.10453358585858
+            },
+            {
+              "str": "MAL",
+              "position": 32.15604873737374
+            },
+            {
+              "str": "LUCAS",
+              "position": 32.20756388888889
+            },
+            {
+              "str": "MAL",
+              "position": 32.25907904040404
+            },
+            {
+              "str": "ALICE",
+              "position": 32.344836616161615
+            },
+            {
+              "str": "MAL",
+              "position": 32.44786691919192
+            },
+            {
+              "str": "LUCAS",
+              "position": 32.53362449494949
+            },
+            {
+              "str": "MAL",
+              "position": 33.10453358585858
+            },
+            {
+              "str": "FESTER",
+              "position": 33.20756388888889
+            },
+            {
+              "str": "CONQUISTADOR ANCESTOR",
+              "position": 33.29332146464647
+            },
+            {
+              "str": "FESTER",
+              "position": 33.379079040404044
+            },
+            {
+              "str": "ALT:(WAS REHAB RIGHT FOR CHARLIE SHEEN?)",
+              "position": 33.56786691919192
+            },
+            {
+              "str": "ANCESTORS",
+              "position": 33.79120025252525
+            },
+            {
+              "str": "FESTER",
+              "position": 33.842715404040405
+            },
+            {
+              "str": "ANCESTORS",
+              "position": 34.10453358585858
+            },
+            {
+              "str": "FESTER",
+              "position": 34.15604873737374
+            },
+            {
+              "str": "ANCESTORS",
+              "position": 34.20756388888889
+            },
+            {
+              "str": "FESTER",
+              "position": 34.25907904040404
+            },
+            {
+              "str": "ANCESTORS",
+              "position": 34.31059419191919
+            },
+            {
+              "str": "FESTER",
+              "position": 34.36210934343434
+            },
+            {
+              "str": "ANCESTORS",
+              "position": 34.413624494949495
+            },
+            {
+              "str": "FESTER",
+              "position": 34.46483661616162
+            },
+            {
+              "str": "ANCESTORS",
+              "position": 34.53362449494949
+            },
+            {
+              "str": "FESTER",
+              "position": 34.58513964646465
+            },
+            {
+              "str": "ANCESTORS",
+              "position": 34.6366547979798
+            },
+            {
+              "str": "FESTER",
+              "position": 34.68816994949495
+            },
+            {
+              "str": "ANCESTORS",
+              "position": 34.7396851010101
+            },
+            {
+              "str": "FESTER",
+              "position": 34.79120025252525
+            },
+            {
+              "str": "ANCESTORS",
+              "position": 34.842715404040405
+            },
+            {
+              "str": "FESTER",
+              "position": 35.10453358585858
+            },
+            {
+              "str": "ANCESTORS",
+              "position": 35.15604873737374
+            },
+            {
+              "str": "FESTER",
+              "position": 35.20756388888889
+            },
+            {
+              "str": "FESTER & ANCESTORS",
+              "position": 35.3627154040404
+            },
+            {
+              "str": "FESTER",
+              "position": 35.44847297979798
+            },
+            {
+              "str": "ADDAMS FAMILY & ANCESTORS",
+              "position": 35.58635176767677
+            },
+            {
+              "str": "GOMEZ/MORT/ANCESTORS",
+              "position": 35.86089722222222
+            },
+            {
+              "str": "FESTER & ANCESTORS",
+              "position": 36.10453358585858
+            },
+            {
+              "str": "GRANDMA/PUGS/ANCESTORS",
+              "position": 36.15604873737374
+            },
+            {
+              "str": "WEDNESDAY & ANCESTORS",
+              "position": 36.20756388888889
+            },
+            {
+              "str": "ADDAMS FAMILY WEDNESDAY",
+              "position": 36.344836616161615
+            },
+            {
+              "str": "ADDAMS FAMILY & ANCESTORS WEDNESDAY",
+              "position": 36.413624494949495
+            },
+            {
+              "str": "MAL & ALICE",
+              "position": 36.46483661616162
+            },
+            {
+              "str": "LUCAS",
+              "position": 36.550897222222225
+            },
+            {
+              "str": "MAL & ALICE",
+              "position": 36.61938207070707
+            },
+            {
+              "str": "WEDNESDAY",
+              "position": 36.67089722222222
+            },
+            {
+              "str": "ADDAMS FAMILY & ANCESTORS",
+              "position": 36.7396851010101
+            },
+            {
+              "str": "WEDNESDAY & LUCAS",
+              "position": 36.79120025252525
+            },
+            {
+              "str": "ALL",
+              "position": 36.8596851010101
+            }
+          ]
+        },
+        {
+          "sceneNumber": 5,
+          "startPosition": 38.10453358585858,
+          "elements": [
+            {
+              "str": "SCENE 5",
+              "position": 38.10453358585858
+            },
+            {
+              "str": "WEDNESDAY",
+              "position": 38.17332146464646
+            },
+            {
+              "str": "MAL",
+              "position": 38.3627154040404
+            },
+            {
+              "str": "ALICE",
+              "position": 38.551503282828286
+            },
+            {
+              "str": "LURCH",
+              "position": 38.74029116161616
+            },
+            {
+              "str": "MAL",
+              "position": 38.79180631313131
+            },
+            {
+              "str": "LURCH",
+              "position": 38.843321464646465
+            },
+            {
+              "str": "MAL",
+              "position": 39.10453358585858
+            },
+            {
+              "str": "LURCH",
+              "position": 39.15604873737374
+            },
+            {
+              "str": "MAL",
+              "position": 39.22453358585859
+            },
+            {
+              "str": "LURCH",
+              "position": 39.276048737373735
+            },
+            {
+              "str": "MAL",
+              "position": 39.344836616161615
+            },
+            {
+              "str": "LURCH",
+              "position": 39.39635176767677
+            },
+            {
+              "str": "MAL",
+              "position": 39.46483661616162
+            },
+            {
+              "str": "ALICE",
+              "position": 39.53362449494949
+            },
+            {
+              "str": "MAL",
+              "position": 39.67089722222222
+            },
+            {
+              "str": "LUCAS",
+              "position": 39.773927525252525
+            },
+            {
+              "str": "MAL",
+              "position": 39.842715404040405
+            },
+            {
+              "str": "GOMEZ",
+              "position": 40.10453358585858
+            },
+            {
+              "str": "#7A MORTICIA’S ENTRANCE",
+              "position": 40.71210934343434
+            },
+            {
+              "str": "MORTICIA",
+              "position": 40.800897222222225
+            },
+            {
+              "str": "GOMEZ",
+              "position": 40.8696851010101
+            },
+            {
+              "str": "MORTICIA",
+              "position": 41.10453358585858
+            },
+            {
+              "str": "GOMEZ",
+              "position": 41.15604873737374
+            },
+            {
+              "str": "MORTICIA",
+              "position": 41.2596851010101
+            },
+            {
+              "str": "MAL",
+              "position": 41.31120025252525
+            },
+            {
+              "str": "MORTICIA",
+              "position": 41.379685101010104
+            },
+            {
+              "str": "ALICE",
+              "position": 41.43120025252525
+            },
+            {
+              "str": "MORTICIA",
+              "position": 41.49998813131313
+            },
+            {
+              "str": "LUCAS",
+              "position": 41.551503282828286
+            },
+            {
+              "str": "MAL",
+              "position": 41.61998813131313
+            },
+            {
+              "str": "MORTICIA",
+              "position": 41.67150328282828
+            },
+            {
+              "str": "WEDNESDAY",
+              "position": 41.774533585858585
+            },
+            {
+              "str": "WEDNESDAY (CON’T)",
+              "position": 42.10453358585858
+            },
+            {
+              "str": "MORTICIA",
+              "position": 42.15604873737374
+            },
+            {
+              "str": "WEDNESDAY",
+              "position": 42.20756388888889
+            },
+            {
+              "str": "MORTICIA",
+              "position": 42.25907904040404
+            },
+            {
+              "str": "GOMEZ",
+              "position": 42.31059419191919
+            },
+            {
+              "str": "MORTICIA",
+              "position": 42.36210934343434
+            },
+            {
+              "str": "WEDNESDAY",
+              "position": 42.46483661616162
+            },
+            {
+              "str": "MORTICIA",
+              "position": 42.56786691919192
+            },
+            {
+              "str": "ALICE",
+              "position": 42.68816994949495
+            },
+            {
+              "str": "GOMEZ",
+              "position": 43.10453358585858
+            },
+            {
+              "str": "PUGSLEY",
+              "position": 43.31059419191919
+            },
+            {
+              "str": "ALICE",
+              "position": 43.36210934343434
+            },
+            {
+              "str": "PUGSLEY",
+              "position": 43.413624494949495
+            },
+            {
+              "str": "GRANDMA",
+              "position": 43.550897222222225
+            },
+            {
+              "str": "GOMEZ",
+              "position": 43.60241237373737
+            },
+            {
+              "str": "GRANDMA",
+              "position": 43.67089722222222
+            },
+            {
+              "str": "ALICE",
+              "position": 43.79120025252525
+            },
+            {
+              "str": "GRANDMA",
+              "position": 43.842715404040405
+            },
+            {
+              "str": "FESTER",
+              "position": 44.17392752525252
+            },
+            {
+              "str": "GOMEZ",
+              "position": 44.379685101010104
+            },
+            {
+              "str": "FESTER",
+              "position": 44.43120025252525
+            },
+            {
+              "str": "GOMEZ",
+              "position": 44.56847297979798
+            },
+            {
+              "str": "GRANDMA/FESTER/PUGSLEY",
+              "position": 44.68877601010101
+            },
+            {
+              "str": "GOMEZ",
+              "position": 44.79180631313131
+            },
+            {
+              "str": "MORTICIA",
+              "position": 45.10453358585858
+            },
+            {
+              "str": "WEDNESDAY",
+              "position": 45.15604873737374
+            },
+            {
+              "str": "GOMEZ",
+              "position": 45.20756388888889
+            },
+            {
+              "str": "MAL",
+              "position": 45.25907904040404
+            },
+            {
+              "str": "GOMEZ",
+              "position": 45.36210934343434
+            },
+            {
+              "str": "ALICE",
+              "position": 45.49938207070707
+            },
+            {
+              "str": "GOMEZ",
+              "position": 45.550897222222225
+            },
+            {
+              "str": "MORTICIA",
+              "position": 45.6366547979798
+            },
+            {
+              "str": "GOMEZ",
+              "position": 45.79120025252525
+            },
+            {
+              "str": "MORTICIA",
+              "position": 45.8596851010101
+            },
+            {
+              "str": "MAL",
+              "position": 46.10453358585858
+            },
+            {
+              "str": "GOMEZ",
+              "position": 46.15604873737374
+            },
+            {
+              "str": "MAL",
+              "position": 46.20756388888889
+            },
+            {
+              "str": "GOMEZ",
+              "position": 46.25907904040404
+            },
+            {
+              "str": "ALICE",
+              "position": 46.379079040404044
+            },
+            {
+              "str": "MORTICIA",
+              "position": 46.43059419191919
+            },
+            {
+              "str": "ALICE",
+              "position": 46.482109343434345
+            },
+            {
+              "str": "MORTICIA",
+              "position": 46.53362449494949
+            },
+            {
+              "str": "ALICE",
+              "position": 46.58513964646465
+            },
+            {
+              "str": "MORTICIA",
+              "position": 46.705139646464644
+            },
+            {
+              "str": "ALICE",
+              "position": 46.7566547979798
+            },
+            {
+              "str": "MORTICIA",
+              "position": 46.82544267676768
+            },
+            {
+              "str": "ALICE",
+              "position": 46.876957828282826
+            },
+            {
+              "str": "#8 BUT LOVE REPRISE 1",
+              "position": 47.1766547979798
+            },
+            {
+              "str": "FESTER",
+              "position": 47.21392752525252
+            },
+            {
+              "str": "CAVEMAN/SOLDIER/FLIGHT ATTENDANT/GAMBLER/COURTESAN ANCESTOR",
+              "position": 47.31695782828283
+            },
+            {
+              "str": "FESTER",
+              "position": 47.385442676767674
+            },
+            {
+              "str": "FESTER AND ANCESTORS",
+              "position": 47.43695782828283
+            }
+          ]
+        },
+        {
+          "sceneNumber": 6,
+          "startPosition": 48.10453358585858,
+          "elements": [
+            {
+              "str": "SCENE 6",
+              "position": 48.10453358585858
+            },
+            {
+              "str": "LUCAS",
+              "position": 48.20816994949495
+            },
+            {
+              "str": "WEDNESDAY",
+              "position": 48.2596851010101
+            },
+            {
+              "str": "LUCAS",
+              "position": 48.31120025252525
+            },
+            {
+              "str": "WEDNESDAY",
+              "position": 48.3627154040404
+            },
+            {
+              "str": "LUCAS",
+              "position": 48.414230555555555
+            },
+            {
+              "str": "WEDNESDAY",
+              "position": 48.482715404040405
+            },
+            {
+              "str": "LUCAS",
+              "position": 48.53423055555555
+            },
+            {
+              "str": "WEDNESDAY",
+              "position": 48.58574570707071
+            },
+            {
+              "str": "LUCAS",
+              "position": 48.65423055555556
+            },
+            {
+              "str": "WEDNESDAY",
+              "position": 48.705745707070704
+            },
+            {
+              "str": "LUCAS",
+              "position": 48.774533585858585
+            },
+            {
+              "str": "WEDNESDAY",
+              "position": 48.82604873737374
+            },
+            {
+              "str": "LUCAS",
+              "position": 48.877563888888886
+            },
+            {
+              "str": "WEDNESDAY",
+              "position": 49.10453358585858
+            },
+            {
+              "str": "LUCAS",
+              "position": 49.15604873737374
+            },
+            {
+              "str": "WEDNESDAY",
+              "position": 49.20756388888889
+            },
+            {
+              "str": "LUCAS",
+              "position": 49.25907904040404
+            },
+            {
+              "str": "WEDNESDAY",
+              "position": 49.31059419191919
+            },
+            {
+              "str": "FESTER",
+              "position": 49.44786691919192
+            },
+            {
+              "str": "#8A BUT LOVE REPRISE 2",
+              "position": 49.5027154040404
+            },
+            {
+              "str": "ANCESTORS",
+              "position": 49.625745707070706
+            },
+            {
+              "str": "FESTER",
+              "position": 49.67726085858586
+            },
+            {
+              "str": "ANCESTORS",
+              "position": 49.74604873737374
+            },
+            {
+              "str": "FESTER",
+              "position": 49.79726085858586
+            }
+          ]
+        },
+        {
+          "sceneNumber": 7,
+          "startPosition": 50.10453358585858,
+          "elements": [
+            {
+              "str": "SCENE 7",
+              "position": 50.10453358585858
+            },
+            {
+              "str": "MAL",
+              "position": 50.20816994949495
+            },
+            {
+              "str": "GOMEZ",
+              "position": 50.2596851010101
+            },
+            {
+              "str": "MAL",
+              "position": 50.32816994949495
+            },
+            {
+              "str": "GOMEZ",
+              "position": 50.379685101010104
+            },
+            {
+              "str": "MAL",
+              "position": 50.50059419191919
+            },
+            {
+              "str": "GOMEZ",
+              "position": 50.552109343434346
+            },
+            {
+              "str": "MAL",
+              "position": 50.75786691919192
+            },
+            {
+              "str": "GOMEZ",
+              "position": 50.80938207070707
+            }
+          ]
+        },
+        {
+          "sceneNumber": 8,
+          "startPosition": 53.10453358585858,
+          "elements": [
+            {
+              "str": "ALICE",
+              "position": 54.10453358585858
+            },
+            {
+              "str": "MORTICIA",
+              "position": 54.19029116161616
+            },
+            {
+              "str": "ALICE",
+              "position": 54.24180631313131
+            },
+            {
+              "str": "MORTICIA",
+              "position": 54.31059419191919
+            },
+            {
+              "str": "ALICE",
+              "position": 54.36210934343434
+            },
+            {
+              "str": "MORTICIA",
+              "position": 54.413624494949495
+            },
+            {
+              "str": "ALICE",
+              "position": 54.46483661616162
+            },
+            {
+              "str": "MORTICIA",
+              "position": 54.51635176767677
+            },
+            {
+              "str": "ALICE",
+              "position": 54.56786691919192
+            },
+            {
+              "str": "MORTICIA",
+              "position": 54.61938207070707
+            },
+            {
+              "str": "ALICE",
+              "position": 54.67089722222222
+            },
+            {
+              "str": "MORTICIA",
+              "position": 54.773927525252525
+            },
+            {
+              "str": "ALICE",
+              "position": 54.842715404040405
+            },
+            {
+              "str": "#9 SECRETS",
+              "position": 55.10786691919192
+            },
+            {
+              "str": "MORTICIA",
+              "position": 55.14513964646465
+            },
+            {
+              "str": "ALICE",
+              "position": 55.67726085858586
+            },
+            {
+              "str": "MORTICIA",
+              "position": 55.79726085858586
+            },
+            {
+              "str": "ALICE",
+              "position": 55.84877601010101
+            },
+            {
+              "str": "MORTICIA",
+              "position": 56.10453358585858
+            },
+            {
+              "str": "ALICE",
+              "position": 56.15604873737374
+            },
+            {
+              "str": "MORTICIA",
+              "position": 56.20756388888889
+            },
+            {
+              "str": "ALICE",
+              "position": 56.25907904040404
+            },
+            {
+              "str": "MORTICIA",
+              "position": 56.344836616161615
+            },
+            {
+              "str": "ALICE",
+              "position": 56.43059419191919
+            },
+            {
+              "str": "MORTICIA",
+              "position": 56.482109343434345
+            },
+            {
+              "str": "ALICE",
+              "position": 56.53362449494949
+            },
+            {
+              "str": "MORTICIA",
+              "position": 56.58513964646465
+            },
+            {
+              "str": "ALICE",
+              "position": 56.72241237373737
+            },
+            {
+              "str": "MORTICIA",
+              "position": 56.79120025252525
+            },
+            {
+              "str": "MORTICIA & FEMALE ANCESTORS",
+              "position": 56.876957828282826
+            },
+            {
+              "str": "MORTICIA",
+              "position": 57.10453358585858
+            },
+            {
+              "str": "MORTICIA & FEMALE ANCESTORS",
+              "position": 57.15604873737374
+            },
+            {
+              "str": "MORTICIA",
+              "position": 57.22453358585859
+            },
+            {
+              "str": "MORTICIA & FEMALE ANCESTORS",
+              "position": 57.276048737373735
+            },
+            {
+              "str": "MORTICIA",
+              "position": 57.32756388888889
+            },
+            {
+              "str": "MORTICIA & FEMALE ANCESTORS",
+              "position": 57.379079040404044
+            },
+            {
+              "str": "MORTICIA",
+              "position": 57.43059419191919
+            },
+            {
+              "str": "FEMALE ANCESTORS",
+              "position": 57.49938207070707
+            },
+            {
+              "str": "#9A SECRETS PLAYOFF",
+              "position": 57.622715404040406
+            }
+          ]
+        },
+        {
+          "sceneNumber": 9,
+          "startPosition": 58.10453358585858,
+          "elements": [
+            {
+              "str": "SCENE 9",
+              "position": 58.10453358585858
+            },
+            {
+              "str": "GOMEZ",
+              "position": 58.24180631313131
+            },
+            {
+              "str": "LUCAS",
+              "position": 58.31059419191919
+            },
+            {
+              "str": "GOMEZ",
+              "position": 58.39635176767677
+            },
+            {
+              "str": "LUCAS",
+              "position": 58.44786691919192
+            },
+            {
+              "str": "GOMEZ",
+              "position": 58.51635176767677
+            },
+            {
+              "str": "LUCAS",
+              "position": 58.56786691919192
+            },
+            {
+              "str": "GOMEZ",
+              "position": 58.6366547979798
+            },
+            {
+              "str": "LUCAS",
+              "position": 58.68816994949495
+            },
+            {
+              "str": "GOMEZ",
+              "position": 58.7396851010101
+            },
+            {
+              "str": "LUCAS",
+              "position": 58.79120025252525
+            },
+            {
+              "str": "GOMEZ",
+              "position": 58.8596851010101
+            },
+            {
+              "str": "WEDNESDAY",
+              "position": 59.10453358585858
+            },
+            {
+              "str": "MORTICIA",
+              "position": 59.15604873737374
+            },
+            {
+              "str": "WEDNESDAY",
+              "position": 59.25907904040404
+            },
+            {
+              "str": "LUCAS",
+              "position": 59.31059419191919
+            },
+            {
+              "str": "GOMEZ",
+              "position": 59.36210934343434
+            },
+            {
+              "str": "WEDNESDAY",
+              "position": 59.413624494949495
+            },
+            {
+              "str": "MORTICIA",
+              "position": 59.49938207070707
+            },
+            {
+              "str": "GOMEZ",
+              "position": 59.550897222222225
+            },
+            {
+              "str": "WEDNESDAY",
+              "position": 59.60241237373737
+            },
+            {
+              "str": "LUCAS",
+              "position": 59.65392752525253
+            },
+            {
+              "str": "GOMEZ WEDNESDAY LUCAS",
+              "position": 59.774533585858585
+            },
+            {
+              "str": "WEDNESDAY",
+              "position": 59.82604873737374
+            },
+            {
+              "str": "GOMEZ",
+              "position": 60.10453358585858
+            },
+            {
+              "str": "LUCAS",
+              "position": 60.17332146464646
+            },
+            {
+              "str": "MORTICIA",
+              "position": 60.24180631313131
+            },
+            {
+              "str": "GOMEZ",
+              "position": 60.344836616161615
+            },
+            {
+              "str": "MORTICIA",
+              "position": 60.39635176767677
+            },
+            {
+              "str": "GOMEZ",
+              "position": 60.44786691919192
+            },
+            {
+              "str": "MORTICIA",
+              "position": 60.550897222222225
+            },
+            {
+              "str": "GOMEZ",
+              "position": 60.60241237373737
+            },
+            {
+              "str": "MORTICIA",
+              "position": 60.65392752525253
+            },
+            {
+              "str": "GOMEZ",
+              "position": 60.705139646464644
+            },
+            {
+              "str": "MORTICIA",
+              "position": 60.842715404040405
+            },
+            {
+              "str": "GOMEZ",
+              "position": 61.10453358585858
+            },
+            {
+              "str": "MORTICIA",
+              "position": 61.17483661616161
+            },
+            {
+              "str": "GOMEZ",
+              "position": 61.22635176767677
+            },
+            {
+              "str": "MORTICIA",
+              "position": 61.27786691919192
+            },
+            {
+              "str": "GOMEZ",
+              "position": 61.32938207070707
+            },
+            {
+              "str": "MORTICIA",
+              "position": 61.380897222222224
+            },
+            {
+              "str": "GOMEZ",
+              "position": 61.4666547979798
+            },
+            {
+              "str": "#10 GOMEZ’S WHAT IF",
+              "position": 61.521503282828284
+            }
+          ]
+        },
+        {
+          "sceneNumber": 10,
+          "startPosition": 62.10453358585858,
+          "elements": [
+            {
+              "str": "SCENE 10",
+              "position": 62.10453358585858
+            },
+            {
+              "str": "LUCAS",
+              "position": 62.20756388888889
+            },
+            {
+              "str": "WEDNESDAY",
+              "position": 62.25907904040404
+            },
+            {
+              "str": "LUCAS",
+              "position": 62.31059419191919
+            },
+            {
+              "str": "WEDNESDAY",
+              "position": 62.36210934343434
+            },
+            {
+              "str": "LUCAS",
+              "position": 62.413624494949495
+            },
+            {
+              "str": "PUGSLEY",
+              "position": 62.482109343434345
+            },
+            {
+              "str": "WEDNESDAY",
+              "position": 62.53362449494949
+            },
+            {
+              "str": "PUGSLEY",
+              "position": 62.58513964646465
+            },
+            {
+              "str": "WEDNESDAY",
+              "position": 62.6366547979798
+            },
+            {
+              "str": "LUCAS",
+              "position": 62.705139646464644
+            },
+            {
+              "str": "PUGSLEY",
+              "position": 62.8596851010101
+            },
+            {
+              "str": "LUCAS",
+              "position": 63.10453358585858
+            },
+            {
+              "str": "PUGSLEY",
+              "position": 63.15604873737374
+            },
+            {
+              "str": "LUCAS",
+              "position": 63.20756388888889
+            },
+            {
+              "str": "PUGSLEY",
+              "position": 63.25907904040404
+            },
+            {
+              "str": "LUCAS",
+              "position": 63.344836616161615
+            },
+            {
+              "str": "PUGSLEY",
+              "position": 63.39635176767677
+            },
+            {
+              "str": "WEDNESDAY",
+              "position": 63.482109343434345
+            },
+            {
+              "str": "PUGSLEY",
+              "position": 63.53362449494949
+            },
+            {
+              "str": "WEDNESDAY",
+              "position": 63.58513964646465
+            },
+            {
+              "str": "PUGSLEY",
+              "position": 63.7396851010101
+            }
+          ]
+        },
+        {
+          "sceneNumber": 11,
+          "startPosition": 64.10453358585859,
+          "elements": [
+            {
+              "str": "SCENE 11",
+              "position": 64.10453358585859
+            },
+            {
+              "str": "#11 WHAT IF",
+              "position": 64.17726085858585
+            },
+            {
+              "str": "PUGSLEY",
+              "position": 64.21453358585859
+            },
+            {
+              "str": "GRANDMA",
+              "position": 64.5575638888889
+            },
+            {
+              "str": "PUGSLEY",
+              "position": 64.67786691919191
+            },
+            {
+              "str": "GRANDMA",
+              "position": 64.72938207070708
+            },
+            {
+              "str": "PUGSLEY",
+              "position": 64.78089722222222
+            },
+            {
+              "str": "GRANDMA",
+              "position": 64.83241237373737
+            },
+            {
+              "str": "PUGSLEY",
+              "position": 65.10453358585859
+            },
+            {
+              "str": "GRANDMA",
+              "position": 65.15604873737374
+            },
+            {
+              "str": "PUGSLEY",
+              "position": 65.22453358585858
+            },
+            {
+              "str": "GRANDMA",
+              "position": 65.27604873737374
+            },
+            {
+              "str": "PUGSLEY",
+              "position": 65.32756388888889
+            },
+            {
+              "str": "GRANDMA",
+              "position": 65.37907904040404
+            },
+            {
+              "str": "PUGSLEY",
+              "position": 65.4305941919192
+            },
+            {
+              "str": "GRANDMA",
+              "position": 65.48210934343435
+            },
+            {
+              "str": "PUGSLEY",
+              "position": 65.53362449494949
+            },
+            {
+              "str": "GRANDMA",
+              "position": 65.58513964646464
+            },
+            {
+              "str": "PUGSLEY",
+              "position": 65.65392752525253
+            },
+            {
+              "str": "GRANDMA",
+              "position": 65.79120025252526
+            },
+            {
+              "str": "PUGSLEY",
+              "position": 65.8427154040404
+            },
+            {
+              "str": "GRANDMA",
+              "position": 66.10453358585859
+            },
+            {
+              "str": "PUGSLEY",
+              "position": 66.15604873737374
+            },
+            {
+              "str": "GRANDMA",
+              "position": 66.2418063131313
+            },
+            {
+              "str": "PUGSLEY",
+              "position": 66.3105941919192
+            },
+            {
+              "str": "GRANDMA",
+              "position": 66.36210934343434
+            },
+            {
+              "str": "PUGSLEY",
+              "position": 66.41362449494949
+            },
+            {
+              "str": "GRANDMA",
+              "position": 66.46483661616162
+            },
+            {
+              "str": "PUGSLEY",
+              "position": 66.51635176767677
+            },
+            {
+              "str": "GRANDMA",
+              "position": 66.56786691919191
+            },
+            {
+              "str": "PUGSLEY",
+              "position": 66.8596851010101
+            },
+            {
+              "str": "PUGSLEY (CON’T)",
+              "position": 67.10453358585859
+            }
+          ]
+        },
+        {
+          "sceneNumber": 12,
+          "startPosition": 68.10453358585859,
+          "elements": [
+            {
+              "str": "SCENE 12",
+              "position": 68.10453358585859
+            },
+            {
+              "str": "GOMEZ",
+              "position": 68.208776010101
+            },
+            {
+              "str": "MORTICIA",
+              "position": 68.38029116161616
+            },
+            {
+              "str": "WEDNESDAY",
+              "position": 68.44907904040404
+            },
+            {
+              "str": "PUGSLEY",
+              "position": 68.50059419191919
+            },
+            {
+              "str": "WEDNESDAY",
+              "position": 68.55210934343434
+            },
+            {
+              "str": "PUGSLEY",
+              "position": 68.6036244949495
+            },
+            {
+              "str": "GOMEZ",
+              "position": 68.67210934343434
+            },
+            {
+              "str": "WEDNESDAY",
+              "position": 68.74089722222222
+            },
+            {
+              "str": "MORTICIA",
+              "position": 68.79241237373738
+            },
+            {
+              "str": "GOMEZ",
+              "position": 68.86089722222222
+            },
+            {
+              "str": "ALICE",
+              "position": 69.10453358585859
+            },
+            {
+              "str": "GOMEZ",
+              "position": 69.15604873737374
+            },
+            {
+              "str": "ALICE",
+              "position": 69.20756388888888
+            },
+            {
+              "str": "MORTICIA",
+              "position": 69.25907904040405
+            },
+            {
+              "str": "GOMEZ",
+              "position": 69.3105941919192
+            },
+            {
+              "str": "MORTICIA",
+              "position": 69.36210934343434
+            },
+            {
+              "str": "GOMEZ",
+              "position": 69.4305941919192
+            },
+            {
+              "str": "MORTICIA",
+              "position": 69.48210934343435
+            },
+            {
+              "str": "ALICE",
+              "position": 69.53362449494949
+            },
+            {
+              "str": "MORTICIA",
+              "position": 69.58513964646464
+            },
+            {
+              "str": "ALICE",
+              "position": 69.65392752525253
+            },
+            {
+              "str": "MAL",
+              "position": 69.70513964646464
+            },
+            {
+              "str": "ALICE",
+              "position": 69.75665479797979
+            },
+            {
+              "str": "MORTICIA",
+              "position": 69.80816994949495
+            },
+            {
+              "str": "GOMEZ",
+              "position": 69.87695782828283
+            },
+            {
+              "str": "MORTICIA",
+              "position": 70.10453358585859
+            },
+            {
+              "str": "#12 FULL DISCLOSURE PART 1",
+              "position": 70.22847297979798
+            },
+            {
+              "str": "GOMEZ",
+              "position": 70.26604873737374
+            },
+            {
+              "str": "GMZ/MORT/FESTER/GRNDM/PUGS/ANCSTRS",
+              "position": 70.60907904040404
+            },
+            {
+              "str": "GOMEZ",
+              "position": 70.66059419191919
+            },
+            {
+              "str": "GRNDM/FSTR/PUGS/MORT/ANCESTORS",
+              "position": 70.8157457070707
+            },
+            {
+              "str": "GOMEZ",
+              "position": 70.88453358585859
+            },
+            {
+              "str": "GOMEZ (CON’T)",
+              "position": 71.12180631313132
+            },
+            {
+              "str": "MORTICIA",
+              "position": 71.51816994949495
+            },
+            {
+              "str": "WEDNESDAY",
+              "position": 71.58695782828283
+            },
+            {
+              "str": "FESTER",
+              "position": 71.63847297979798
+            },
+            {
+              "str": "GOMEZ",
+              "position": 71.68998813131313
+            },
+            {
+              "str": "FESTER",
+              "position": 71.77635176767677
+            },
+            {
+              "str": "EVERYONE",
+              "position": 71.82786691919192
+            },
+            {
+              "str": "FESTER",
+              "position": 71.87938207070707
+            },
+            {
+              "str": "FESTER (CON’T)",
+              "position": 72.10453358585859
+            },
+            {
+              "str": "MORTICIA",
+              "position": 72.17332146464646
+            },
+            {
+              "str": "FESTER",
+              "position": 72.22453358585858
+            },
+            {
+              "str": "ALICE",
+              "position": 72.29332146464647
+            },
+            {
+              "str": "MAL",
+              "position": 72.34483661616161
+            },
+            {
+              "str": "ALICE",
+              "position": 72.39635176767676
+            },
+            {
+              "str": "FESTER",
+              "position": 72.44786691919192
+            },
+            {
+              "str": "EVERYONE",
+              "position": 72.49938207070707
+            },
+            {
+              "str": "FESTER",
+              "position": 72.55089722222222
+            },
+            {
+              "str": "GMZ/MORT/FSTR/PUG/GRNDM/ALICE/ANCSTRS",
+              "position": 72.60241237373738
+            },
+            {
+              "str": "FESTER",
+              "position": 72.65392752525253
+            },
+            {
+              "str": "GMZ/MORT/FSTR/PUG/GRNDM/ALICE/ANCSTRS",
+              "position": 72.70513964646464
+            },
+            {
+              "str": "FESTER",
+              "position": 72.75665479797979
+            },
+            {
+              "str": "GMZ/MORT/FSTR/PUG/GRNDM/ALICE/ANCSTRS",
+              "position": 72.80816994949495
+            },
+            {
+              "str": "FESTER",
+              "position": 72.8596851010101
+            },
+            {
+              "str": "GMZ/MORT/FSTR/PUG/GRNDM/ALICE/ANCSTRS",
+              "position": 73.10453358585859
+            },
+            {
+              "str": "MORTICIA",
+              "position": 73.15604873737374
+            },
+            {
+              "str": "WEDNESDAY",
+              "position": 73.20756388888888
+            },
+            {
+              "str": "GRANDMA",
+              "position": 73.25907904040405
+            },
+            {
+              "str": "MORTICIA",
+              "position": 73.67150328282828
+            },
+            {
+              "str": "WEDNESDAY",
+              "position": 73.75726085858585
+            },
+            {
+              "str": "GOMEZ",
+              "position": 73.80877601010101
+            },
+            {
+              "str": "MORTICIA",
+              "position": 73.86029116161616
+            },
+            {
+              "str": "MORTICIA (CON’T)",
+              "position": 74.10453358585859
+            },
+            {
+              "str": "PUGSLEY",
+              "position": 74.19029116161616
+            },
+            {
+              "str": "MORT/GMZ/GRNDM/FSTR/PUG/ALICE/ANCSTRS",
+              "position": 74.41362449494949
+            },
+            {
+              "str": "MORTICIA",
+              "position": 74.46483661616162
+            },
+            {
+              "str": "GRANDMA/FESTER/ALICE/PUGS/ANCESTORS",
+              "position": 74.51635176767677
+            },
+            {
+              "str": "GOMEZ",
+              "position": 74.60241237373738
+            },
+            {
+              "str": "GRNDM/FSTR/ALICE/PUG/MORT/ANCESTORS",
+              "position": 74.67089722222222
+            },
+            {
+              "str": "GOMEZ/WEDNESDAY",
+              "position": 74.79120025252526
+            },
+            {
+              "str": "GMZ/MORT/GRNDM/FSTR/ALICE/PUG/ANCSTRS",
+              "position": 74.8427154040404
+            },
+            {
+              "str": "PUGSLEY",
+              "position": 75.17332146464646
+            },
+            {
+              "str": "#13 WAITING",
+              "position": 75.27938207070707
+            },
+            {
+              "str": "ALICE",
+              "position": 75.31695782828282
+            },
+            {
+              "str": "MAL",
+              "position": 75.4027154040404
+            },
+            {
+              "str": "ALICE",
+              "position": 75.5227154040404
+            },
+            {
+              "str": "MAL",
+              "position": 75.59150328282828
+            },
+            {
+              "str": "ALICE",
+              "position": 75.64301843434343
+            },
+            {
+              "str": "LUCAS",
+              "position": 75.76301843434344
+            },
+            {
+              "str": "ALICE",
+              "position": 75.83180631313131
+            },
+            {
+              "str": "ALICE (CON’T)",
+              "position": 76.10453358585859
+            },
+            {
+              "str": "LURCH",
+              "position": 76.4305941919192
+            },
+            {
+              "str": "ALICE",
+              "position": 76.48210934343435
+            },
+            {
+              "str": "ANCESTORS",
+              "position": 76.70695782828282
+            },
+            {
+              "str": "GOMEZ",
+              "position": 76.80998813131313
+            },
+            {
+              "str": "#14 FULL DISCLOSURE PART 2",
+              "position": 76.86483661616161
+            },
+            {
+              "str": "GOMEZ/MORT/FSTR/GRNDM/PUGS/ANCSTRS",
+              "position": 77.10453358585859
+            },
+            {
+              "str": "GOMEZ",
+              "position": 77.15604873737374
+            },
+            {
+              "str": "GOMEZ/MORT/FSTR/GRNDM/PUGS/ANCSTRS",
+              "position": 77.20756388888888
+            },
+            {
+              "str": "GOMEZ",
+              "position": 77.25907904040405
+            },
+            {
+              "str": "GOMEZ/MORT/FSTR/GRNDM/PUGS/ANCSTRS",
+              "position": 77.3105941919192
+            },
+            {
+              "str": "GOMEZ",
+              "position": 77.36210934343434
+            },
+            {
+              "str": "MAL",
+              "position": 77.44786691919192
+            },
+            {
+              "str": "FESTER",
+              "position": 77.55332146464646
+            },
+            {
+              "str": "MAL",
+              "position": 77.60453358585859
+            },
+            {
+              "str": "WEDNESDAY",
+              "position": 77.74210934343435
+            },
+            {
+              "str": "MORTICIA",
+              "position": 77.79332146464647
+            },
+            {
+              "str": "WEDNESDAY",
+              "position": 77.84483661616161
+            },
+            {
+              "str": "MORTICIA",
+              "position": 78.10453358585859
+            },
+            {
+              "str": "WEDNESDAY",
+              "position": 78.15604873737374
+            },
+            {
+              "str": "MORTICIA",
+              "position": 78.20756388888888
+            },
+            {
+              "str": "WEDNESDAY",
+              "position": 78.3105941919192
+            },
+            {
+              "str": "MORTICIA",
+              "position": 78.46483661616162
+            },
+            {
+              "str": "FESTER & ANCESTORS",
+              "position": 78.55089722222222
+            },
+            {
+              "str": "MORTICIA",
+              "position": 78.60241237373738
+            },
+            {
+              "str": "FESTER & ANCESTORS",
+              "position": 78.67089722222222
+            },
+            {
+              "str": "ALICE",
+              "position": 78.72241237373737
+            },
+            {
+              "str": "WEDNESDAY",
+              "position": 78.79120025252526
+            },
+            {
+              "str": "MORTICIA",
+              "position": 78.8427154040404
+            },
+            {
+              "str": "LUCAS",
+              "position": 79.10453358585859
+            },
+            {
+              "str": "MORTICIA & ANCESTORS",
+              "position": 79.15604873737374
+            },
+            {
+              "str": "GOMEZ & ANCESTORS",
+              "position": 79.20756388888888
+            },
+            {
+              "str": "ALL (EXCEPT WEDNESDAY AND LUCAS)",
+              "position": 79.25907904040405
+            },
+            {
+              "str": "MORT/ALICE/WED/GMZ/MAL/LUC/GRND/FSTR",
+              "position": 79.32756388888889
+            },
+            {
+              "str": "ALL ALICE",
+              "position": 79.37907904040404
+            },
+            {
+              "str": "ALL WEDNESDAY",
+              "position": 79.48210934343435
+            },
+            {
+              "str": "FESTER",
+              "position": 79.61938207070708
+            },
+            {
+              "str": "ANCESTORS",
+              "position": 79.72241237373737
+            },
+            {
+              "str": "FESTER",
+              "position": 79.77392752525253
+            },
+            {
+              "str": "MAL",
+              "position": 80.10453358585859
+            },
+            {
+              "str": "GOMEZ",
+              "position": 80.20756388888888
+            },
+            {
+              "str": "ALL",
+              "position": 80.32756388888889
+            },
+            {
+              "str": "END OF ONE",
+              "position": 80.41362449494949
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "actNumber": 2,
+      "startPosition": 81.10453358585859,
+      "scenes": [
+        {
+          "sceneNumber": 1,
+          "startPosition": 81.12180631313132,
+          "elements": [
+            {
+              "str": "SCENE 1",
+              "position": 81.12180631313132
+            },
+            {
+              "str": "#15 OPENING II",
+              "position": 81.19362449494949
+            },
+            {
+              "str": "LUCAS",
+              "position": 81.36816994949496
+            },
+            {
+              "str": "WEDNESDAY",
+              "position": 81.4196851010101
+            },
+            {
+              "str": "LUCAS",
+              "position": 81.47120025252525
+            },
+            {
+              "str": "WEDNESDAY",
+              "position": 81.53998813131314
+            },
+            {
+              "str": "LUCAS",
+              "position": 81.59150328282828
+            },
+            {
+              "str": "WEDNESDAY",
+              "position": 81.65998813131313
+            },
+            {
+              "str": "LUCAS",
+              "position": 81.72877601010102
+            },
+            {
+              "str": "WEDNESDAY",
+              "position": 81.78029116161616
+            },
+            {
+              "str": "LUCAS",
+              "position": 81.83180631313131
+            },
+            {
+              "str": "WEDNESDAY",
+              "position": 81.88332146464647
+            },
+            {
+              "str": "LUCAS",
+              "position": 82.10453358585859
+            },
+            {
+              "str": "WEDNESDAY",
+              "position": 82.17332146464646
+            },
+            {
+              "str": "LUCAS",
+              "position": 82.2418063131313
+            },
+            {
+              "str": "WEDNESDAY",
+              "position": 82.29332146464647
+            },
+            {
+              "str": "ANCESTORS",
+              "position": 82.34483661616161
+            },
+            {
+              "str": "LUCAS",
+              "position": 82.39635176767676
+            },
+            {
+              "str": "WEDNESDAY",
+              "position": 82.44786691919192
+            },
+            {
+              "str": "ANCESTORS",
+              "position": 82.49938207070707
+            },
+            {
+              "str": "LUCAS",
+              "position": 82.55089722222222
+            },
+            {
+              "str": "ANCESTORS",
+              "position": 82.61938207070708
+            },
+            {
+              "str": "WEDNESDAY",
+              "position": 82.67089722222222
+            },
+            {
+              "str": "ANCESTORS",
+              "position": 82.7396851010101
+            },
+            {
+              "str": "WEDNESDAY",
+              "position": 82.79120025252526
+            },
+            {
+              "str": "LUCAS",
+              "position": 82.8427154040404
+            },
+            {
+              "str": "WEDNESDAY",
+              "position": 83.10453358585859
+            },
+            {
+              "str": "LUCAS",
+              "position": 83.24241237373738
+            },
+            {
+              "str": "ANCESTORS",
+              "position": 83.38089722222222
+            },
+            {
+              "str": "FESTER",
+              "position": 83.43241237373738
+            }
+          ]
+        },
+        {
+          "sceneNumber": 2,
+          "startPosition": 84.10453358585859,
+          "elements": [
+            {
+              "str": "SCENE 2",
+              "position": 84.10453358585859
+            },
+            {
+              "str": "MORTICIA",
+              "position": 84.22513964646464
+            },
+            {
+              "str": "GOMEZ",
+              "position": 84.27726085858586
+            },
+            {
+              "str": "MORTICIA",
+              "position": 84.32877601010101
+            },
+            {
+              "str": "GOMEZ",
+              "position": 84.38029116161616
+            },
+            {
+              "str": "MORTICIA",
+              "position": 84.44907904040404
+            },
+            {
+              "str": "GOMEZ",
+              "position": 84.51756388888889
+            },
+            {
+              "str": "MORTICIA",
+              "position": 84.56907904040403
+            },
+            {
+              "str": "GOMEZ",
+              "position": 84.67210934343434
+            },
+            {
+              "str": "MORTICIA",
+              "position": 84.72362449494949
+            },
+            {
+              "str": "GOMEZ",
+              "position": 85.10453358585859
+            },
+            {
+              "str": "MORTICIA",
+              "position": 85.19029116161616
+            },
+            {
+              "str": "GOMEZ",
+              "position": 85.2418063131313
+            },
+            {
+              "str": "MORTICIA",
+              "position": 85.29332146464647
+            },
+            {
+              "str": "GOMEZ",
+              "position": 85.34483661616161
+            },
+            {
+              "str": "MORTICIA",
+              "position": 85.39877601010102
+            },
+            {
+              "str": "#16 JUST AROUND THE CORNER",
+              "position": 85.47059419191919
+            },
+            {
+              "str": "MORTICIA (CON’T)",
+              "position": 86.10453358585859
+            },
+            {
+              "str": "CAVEMAN ANCESTORS",
+              "position": 86.49998813131313
+            },
+            {
+              "str": "MORTICIA",
+              "position": 86.55150328282828
+            },
+            {
+              "str": "FLIGHT ATTENDANT ANCESTOR",
+              "position": 86.60301843434344
+            },
+            {
+              "str": "SOLDIER ANCESTOR",
+              "position": 86.65423055555556
+            },
+            {
+              "str": "MORTICIA",
+              "position": 86.7057457070707
+            },
+            {
+              "str": "BRIDE ANCESTOR",
+              "position": 86.82604873737374
+            },
+            {
+              "str": "CONQUISTADOR & PURITAN ANCESTOR",
+              "position": 86.87756388888889
+            },
+            {
+              "str": "SALOON/FLAPPER ANCESTOR",
+              "position": 87.10453358585859
+            },
+            {
+              "str": "MORTICIA",
+              "position": 87.15604873737374
+            },
+            {
+              "str": "MORTICIA & ANCESTORS",
+              "position": 87.2418063131313
+            },
+            {
+              "str": "MORTICIA",
+              "position": 87.3105941919192
+            },
+            {
+              "str": "ANCESTORS",
+              "position": 87.36210934343434
+            },
+            {
+              "str": "MORTICIA",
+              "position": 87.41362449494949
+            },
+            {
+              "str": "MORTICIA & ANCESTORS",
+              "position": 87.48210934343435
+            },
+            {
+              "str": "MORTICIA",
+              "position": 87.53362449494949
+            },
+            {
+              "str": "MORTICIA & ANCESTORS",
+              "position": 87.65392752525253
+            },
+            {
+              "str": "ANCESTORS",
+              "position": 87.72241237373737
+            },
+            {
+              "str": "MORTICIA",
+              "position": 87.77392752525253
+            },
+            {
+              "str": "ANCESTORS",
+              "position": 87.82544267676768
+            },
+            {
+              "str": "MORTICIA",
+              "position": 87.87695782828283
+            },
+            {
+              "str": "ANCESTORS",
+              "position": 88.10453358585859
+            },
+            {
+              "str": "MORTICIA & ANCESTORS",
+              "position": 88.15604873737374
+            },
+            {
+              "str": "#16A JUST AROUND THE CORNER PLAYOFF",
+              "position": 88.26241237373738
+            },
+            {
+              "str": "ANCESTORS",
+              "position": 88.2996851010101
+            },
+            {
+              "str": "MORTICIA",
+              "position": 88.35120025252525
+            },
+            {
+              "str": "ANCESTORS",
+              "position": 88.4027154040404
+            },
+            {
+              "str": "MORTICIA",
+              "position": 88.45423055555555
+            },
+            {
+              "str": "ANCESTORS",
+              "position": 88.5057457070707
+            },
+            {
+              "str": "MORTICIA & ANCESTORS",
+              "position": 88.55695782828283
+            }
+          ]
+        },
+        {
+          "sceneNumber": 3,
+          "startPosition": 89.10453358585859,
+          "elements": [
+            {
+              "str": "SCENE 3",
+              "position": 89.10453358585859
+            },
+            {
+              "str": "16B ALL IS BLACK INSIDE MY FACE",
+              "position": 89.1766547979798
+            },
+            {
+              "str": "ALICE",
+              "position": 89.21392752525253
+            },
+            {
+              "str": "MAL",
+              "position": 89.28241237373737
+            },
+            {
+              "str": "ALICE",
+              "position": 89.33392752525252
+            },
+            {
+              "str": "MAL",
+              "position": 89.4027154040404
+            },
+            {
+              "str": "ALICE",
+              "position": 89.47120025252525
+            },
+            {
+              "str": "MAL",
+              "position": 89.53998813131314
+            },
+            {
+              "str": "ALICE",
+              "position": 89.60847297979798
+            },
+            {
+              "str": "MAL",
+              "position": 89.65998813131313
+            },
+            {
+              "str": "ALICE",
+              "position": 89.71150328282829
+            },
+            {
+              "str": "MAL",
+              "position": 89.76301843434344
+            },
+            {
+              "str": "ALICE",
+              "position": 89.86604873737373
+            },
+            {
+              "str": "MAL",
+              "position": 90.10453358585859
+            },
+            {
+              "str": "ALICE",
+              "position": 90.15604873737374
+            },
+            {
+              "str": "MAL",
+              "position": 90.20756388888888
+            },
+            {
+              "str": "ALICE",
+              "position": 90.25907904040405
+            },
+            {
+              "str": "MAL",
+              "position": 90.41362449494949
+            },
+            {
+              "str": "ALICE",
+              "position": 90.46483661616162
+            },
+            {
+              "str": "#16C INTO THE MOON AND ME",
+              "position": 90.57120025252526
+            }
+          ]
+        },
+        {
+          "sceneNumber": 4,
+          "startPosition": 91.10453358585859,
+          "elements": [
+            {
+              "str": "SCENE 4",
+              "position": 91.10453358585859
+            },
+            {
+              "str": "FESTER",
+              "position": 91.20756388888888
+            },
+            {
+              "str": "FEMALE ANCESTORS",
+              "position": 91.4666547979798
+            },
+            {
+              "str": "FESTER",
+              "position": 91.51816994949495
+            },
+            {
+              "str": "FEMALE ANCESTORS",
+              "position": 91.5696851010101
+            },
+            {
+              "str": "#17 THE MOON AND ME",
+              "position": 91.71029116161615
+            },
+            {
+              "str": "FESTER",
+              "position": 91.74756388888889
+            },
+            {
+              "str": "FESTER (CON’T)",
+              "position": 92.10453358585859
+            },
+            {
+              "str": "FESTER & FEMALE ANCESTORS",
+              "position": 92.36210934343434
+            },
+            {
+              "str": "FESTER & FEMALE ANCESTORS",
+              "position": 92.53362449494949
+            },
+            {
+              "str": "FEMALE ANCESTORS",
+              "position": 92.68816994949495
+            },
+            {
+              "str": "FESTER",
+              "position": 92.77392752525253
+            },
+            {
+              "str": "FEMALE ANCESTORS",
+              "position": 92.82544267676768
+            }
+          ]
+        },
+        {
+          "sceneNumber": 5,
+          "startPosition": 93.10453358585859,
+          "elements": [
+            {
+              "str": "SCENE 5",
+              "position": 93.10453358585859
+            },
+            {
+              "str": "#17A INTO HAPPY SAD",
+              "position": 93.1766547979798
+            },
+            {
+              "str": "GOMEZ",
+              "position": 93.33453358585858
+            },
+            {
+              "str": "WEDNESDAY",
+              "position": 93.38604873737374
+            },
+            {
+              "str": "GOMEZ",
+              "position": 93.43756388888889
+            },
+            {
+              "str": "WEDNESDAY",
+              "position": 93.48907904040404
+            },
+            {
+              "str": "GOMEZ",
+              "position": 93.5405941919192
+            },
+            {
+              "str": "WEDNESDAY",
+              "position": 93.59210934343434
+            },
+            {
+              "str": "GOMEZ",
+              "position": 93.64362449494949
+            },
+            {
+              "str": "WEDNESDAY",
+              "position": 93.71210934343435
+            },
+            {
+              "str": "GOMEZ",
+              "position": 93.78089722222222
+            },
+            {
+              "str": "WEDNESDAY",
+              "position": 93.83241237373737
+            },
+            {
+              "str": "GOMEZ",
+              "position": 93.88392752525253
+            },
+            {
+              "str": "WEDNESDAY",
+              "position": 94.10453358585859
+            },
+            {
+              "str": "GOMEZ",
+              "position": 94.15604873737374
+            },
+            {
+              "str": "WEDNESDAY",
+              "position": 94.20756388888888
+            },
+            {
+              "str": "GOMEZ",
+              "position": 94.25907904040405
+            },
+            {
+              "str": "WEDNESDAY",
+              "position": 94.3105941919192
+            },
+            {
+              "str": "GOMEZ",
+              "position": 94.4305941919192
+            },
+            {
+              "str": "WEDNESDAY",
+              "position": 94.48210934343435
+            },
+            {
+              "str": "GOMEZ",
+              "position": 94.53362449494949
+            },
+            {
+              "str": "#18 HAPPY SAD",
+              "position": 94.58847297979798
+            },
+            {
+              "str": "WEDNESDAY",
+              "position": 94.88332146464647
+            },
+            {
+              "str": "GOMEZ",
+              "position": 95.10453358585859
+            },
+            {
+              "str": "GOMEZ (CON’T)",
+              "position": 96.10453358585859
+            }
+          ]
+        },
+        {
+          "sceneNumber": 6,
+          "startPosition": 97.10453358585859,
+          "elements": [
+            {
+              "str": "SCENE 6",
+              "position": 97.10453358585859
+            },
+            {
+              "str": "WEDNESDAY",
+              "position": 97.17332146464646
+            },
+            {
+              "str": "LUCAS",
+              "position": 97.22453358585858
+            },
+            {
+              "str": "GOMEZ",
+              "position": 97.27604873737374
+            },
+            {
+              "str": "WEDNESDAY",
+              "position": 97.41362449494949
+            },
+            {
+              "str": "LUCAS",
+              "position": 97.46483661616162
+            },
+            {
+              "str": "WEDNESDAY",
+              "position": 97.51635176767677
+            },
+            {
+              "str": "LUCAS",
+              "position": 97.56786691919191
+            },
+            {
+              "str": "WEDNESDAY",
+              "position": 97.6366547979798
+            },
+            {
+              "str": "LUCAS",
+              "position": 97.68816994949495
+            },
+            {
+              "str": "WEDNESDAY",
+              "position": 97.80816994949495
+            },
+            {
+              "str": "LUCAS",
+              "position": 97.8596851010101
+            },
+            {
+              "str": "WEDNESDAY",
+              "position": 98.10453358585859
+            },
+            {
+              "str": "LUCAS",
+              "position": 98.25907904040405
+            },
+            {
+              "str": "WEDNESDAY",
+              "position": 98.3105941919192
+            },
+            {
+              "str": "LUCAS",
+              "position": 98.36210934343434
+            },
+            {
+              "str": "WEDNESDAY",
+              "position": 98.4305941919192
+            },
+            {
+              "str": "LUCAS",
+              "position": 98.48210934343435
+            },
+            {
+              "str": "WEDNESDAY",
+              "position": 98.53362449494949
+            },
+            {
+              "str": "#19 CRAZIER THAN YOU",
+              "position": 98.58847297979798
+            },
+            {
+              "str": "LUCAS",
+              "position": 99.10453358585859
+            },
+            {
+              "str": "WEDNESDAY",
+              "position": 99.15604873737374
+            },
+            {
+              "str": "LUCAS",
+              "position": 99.20756388888888
+            },
+            {
+              "str": "WEDNESDAY",
+              "position": 99.25907904040405
+            },
+            {
+              "str": "LUCAS",
+              "position": 99.3105941919192
+            },
+            {
+              "str": "WEDNESDAY",
+              "position": 99.67089722222222
+            },
+            {
+              "str": "LUCAS",
+              "position": 99.7396851010101
+            },
+            {
+              "str": "WEDNESDAY",
+              "position": 99.80816994949495
+            },
+            {
+              "str": "LUCAS",
+              "position": 99.8596851010101
+            },
+            {
+              "str": "WEDNESDAY",
+              "position": 100.10453358585859
+            },
+            {
+              "str": "LUCAS",
+              "position": 100.15604873737374
+            },
+            {
+              "str": "WEDNESDAY",
+              "position": 100.22453358585858
+            },
+            {
+              "str": "LUCAS",
+              "position": 100.29332146464647
+            },
+            {
+              "str": "WEDNESDAY LUCAS",
+              "position": 100.34483661616161
+            },
+            {
+              "str": "LUCAS",
+              "position": 100.46483661616162
+            },
+            {
+              "str": "WEDNESDAY",
+              "position": 100.55089722222222
+            },
+            {
+              "str": "LUCAS",
+              "position": 100.6366547979798
+            },
+            {
+              "str": "WEDNESDAY",
+              "position": 100.72241237373737
+            },
+            {
+              "str": "LUCAS",
+              "position": 100.77392752525253
+            },
+            {
+              "str": "WEDNESDAY",
+              "position": 100.8427154040404
+            },
+            {
+              "str": "LUCAS",
+              "position": 101.10453358585859
+            },
+            {
+              "str": "WEDNESDAY",
+              "position": 101.15604873737374
+            },
+            {
+              "str": "LUCAS",
+              "position": 101.27604873737374
+            },
+            {
+              "str": "WEDNESDAY",
+              "position": 101.39635176767676
+            },
+            {
+              "str": "LUCAS",
+              "position": 101.48210934343435
+            },
+            {
+              "str": "WEDNESDAY",
+              "position": 101.53362449494949
+            },
+            {
+              "str": "LUCAS",
+              "position": 101.58513964646464
+            },
+            {
+              "str": "WEDNESDAY",
+              "position": 101.6366547979798
+            },
+            {
+              "str": "FESTER",
+              "position": 101.75665479797979
+            },
+            {
+              "str": "MAL",
+              "position": 102.10453358585859
+            },
+            {
+              "str": "FESTER",
+              "position": 102.17332146464646
+            },
+            {
+              "str": "MAL",
+              "position": 102.22453358585858
+            },
+            {
+              "str": "FESTER",
+              "position": 102.27604873737374
+            },
+            {
+              "str": "MAL",
+              "position": 102.34483661616161
+            },
+            {
+              "str": "FESTER",
+              "position": 102.41362449494949
+            },
+            {
+              "str": "MAL",
+              "position": 102.48210934343435
+            },
+            {
+              "str": "FESTER",
+              "position": 102.6366547979798
+            },
+            {
+              "str": "MAL",
+              "position": 102.68816994949495
+            },
+            {
+              "str": "FESTER",
+              "position": 102.7396851010101
+            },
+            {
+              "str": "MAL",
+              "position": 102.8596851010101
+            },
+            {
+              "str": "ALICE",
+              "position": 103.10453358585859
+            },
+            {
+              "str": "MAL",
+              "position": 103.15604873737374
+            },
+            {
+              "str": "ALICE",
+              "position": 103.20756388888888
+            },
+            {
+              "str": "MAL",
+              "position": 103.25907904040405
+            },
+            {
+              "str": "ALICE",
+              "position": 103.3105941919192
+            },
+            {
+              "str": "MAL",
+              "position": 103.41362449494949
+            },
+            {
+              "str": "ALICE",
+              "position": 103.58513964646464
+            },
+            {
+              "str": "MAL",
+              "position": 103.67089722222222
+            },
+            {
+              "str": "MAL (CON’T)",
+              "position": 104.10453358585859
+            },
+            {
+              "str": "ALICE",
+              "position": 104.25907904040405
+            },
+            {
+              "str": "MAL",
+              "position": 104.32756388888889
+            },
+            {
+              "str": "ALICE",
+              "position": 104.41362449494949
+            },
+            {
+              "str": "WEDNESDAY & LUCAS",
+              "position": 104.55089722222222
+            },
+            {
+              "str": "ALICE",
+              "position": 104.60241237373738
+            },
+            {
+              "str": "WEDNESDAY & LUCAS",
+              "position": 104.65392752525253
+            },
+            {
+              "str": "MAL",
+              "position": 104.70513964646464
+            },
+            {
+              "str": "WEDNESDAY LUCAS",
+              "position": 104.75665479797979
+            },
+            {
+              "str": "ALICE",
+              "position": 104.8427154040404
+            },
+            {
+              "str": "WEDNESDAY & LUCAS",
+              "position": 105.10453358585859
+            },
+            {
+              "str": "ALICE & MAL",
+              "position": 105.15604873737374
+            },
+            {
+              "str": "WEDNESDAY & LUCAS",
+              "position": 105.20756388888888
+            },
+            {
+              "str": "ALICE MAL",
+              "position": 105.25907904040405
+            },
+            {
+              "str": "WEDNESDAY & LUCAS",
+              "position": 105.3105941919192
+            },
+            {
+              "str": "ALICE & MAL",
+              "position": 105.36210934343434
+            },
+            {
+              "str": "WEDNESDAY & LUCAS",
+              "position": 105.41362449494949
+            },
+            {
+              "str": "ALICE & MAL",
+              "position": 105.46483661616162
+            },
+            {
+              "str": "WEDNESDAY & LUCAS",
+              "position": 105.51635176767677
+            },
+            {
+              "str": "ALL FOUR",
+              "position": 105.56786691919191
+            }
+          ]
+        },
+        {
+          "sceneNumber": 7,
+          "startPosition": 106.10453358585859,
+          "elements": [
+            {
+              "str": "SCENE 7",
+              "position": 106.10453358585859
+            },
+            {
+              "str": "#19A BEDTIME STORY",
+              "position": 106.1766547979798
+            },
+            {
+              "str": "MORTICIA",
+              "position": 106.26544267676768
+            },
+            {
+              "str": "PUGSLEY",
+              "position": 106.31695782828282
+            },
+            {
+              "str": "MORTICIA",
+              "position": 106.36816994949496
+            },
+            {
+              "str": "PUGSLEY",
+              "position": 106.4196851010101
+            },
+            {
+              "str": "MORTICIA",
+              "position": 106.47120025252525
+            },
+            {
+              "str": "PUGSLEY",
+              "position": 106.53998813131314
+            },
+            {
+              "str": "MORTICIA",
+              "position": 106.59150328282828
+            },
+            {
+              "str": "PUGSLEY",
+              "position": 106.64301843434343
+            },
+            {
+              "str": "MORTICIA",
+              "position": 106.71150328282829
+            },
+            {
+              "str": "PUGSLEY",
+              "position": 106.76301843434344
+            },
+            {
+              "str": "MORTICIA",
+              "position": 106.81453358585858
+            },
+            {
+              "str": "PUGSLEY",
+              "position": 106.88332146464647
+            },
+            {
+              "str": "MORTICIA",
+              "position": 107.10453358585859
+            },
+            {
+              "str": "PUGSLEY",
+              "position": 107.15604873737374
+            },
+            {
+              "str": "MORTICIA",
+              "position": 107.2418063131313
+            },
+            {
+              "str": "PUGSLEY",
+              "position": 107.34483661616161
+            },
+            {
+              "str": "MORTICIA",
+              "position": 107.39635176767676
+            }
+          ]
+        },
+        {
+          "sceneNumber": 8,
+          "startPosition": 108.10453358585859,
+          "elements": [
+            {
+              "str": "SCENE 8",
+              "position": 108.10453358585859
+            },
+            {
+              "str": "GOMEZ",
+              "position": 108.2418063131313
+            },
+            {
+              "str": "#20 NOT TODAY",
+              "position": 108.6227154040404
+            },
+            {
+              "str": "GOMEZ (CON’T)",
+              "position": 109.10453358585859
+            },
+            {
+              "str": "LURCH",
+              "position": 109.56786691919191
+            },
+            {
+              "str": "GOMEZ",
+              "position": 109.61938207070708
+            },
+            {
+              "str": "FESTER",
+              "position": 110.12180631313132
+            },
+            {
+              "str": "GOMEZ",
+              "position": 110.17332146464646
+            },
+            {
+              "str": "FESTER",
+              "position": 110.22453358585858
+            },
+            {
+              "str": "GOMEZ",
+              "position": 110.34483661616161
+            },
+            {
+              "str": "#20A AFTER NOT TODAY",
+              "position": 110.55483661616162
+            }
+          ]
+        },
+        {
+          "sceneNumber": 9,
+          "startPosition": 111.10453358585859,
+          "elements": [
+            {
+              "str": "SCENE 9",
+              "position": 111.10453358585859
+            },
+            {
+              "str": "GOMEZ",
+              "position": 111.2418063131313
+            },
+            {
+              "str": "MORTICIA",
+              "position": 111.29332146464647
+            },
+            {
+              "str": "GOMEZ",
+              "position": 111.37907904040404
+            },
+            {
+              "str": "MORTICIA",
+              "position": 111.4305941919192
+            },
+            {
+              "str": "GOMEZ",
+              "position": 111.48392752525253
+            },
+            {
+              "str": "MORTICIA",
+              "position": 111.5527154040404
+            },
+            {
+              "str": "GOMEZ",
+              "position": 111.60392752525253
+            },
+            {
+              "str": "MORTICIA",
+              "position": 111.65544267676768
+            },
+            {
+              "str": "GOMEZ",
+              "position": 111.70695782828282
+            },
+            {
+              "str": "MORTICIA",
+              "position": 111.76089722222223
+            },
+            {
+              "str": "GOMEZ",
+              "position": 111.81241237373737
+            },
+            {
+              "str": "MORTICIA",
+              "position": 111.86392752525252
+            },
+            {
+              "str": "GOMEZ",
+              "position": 112.10453358585859
+            },
+            {
+              "str": "MORTICIA",
+              "position": 112.15604873737374
+            },
+            {
+              "str": "GOMEZ",
+              "position": 112.20756388888888
+            },
+            {
+              "str": "MORTICIA",
+              "position": 112.3105941919192
+            },
+            {
+              "str": "GOMEZ",
+              "position": 112.36210934343434
+            },
+            {
+              "str": "MORTICIA",
+              "position": 112.4305941919192
+            },
+            {
+              "str": "GOMEZ",
+              "position": 112.51635176767677
+            },
+            {
+              "str": "MORTICIA",
+              "position": 112.56786691919191
+            },
+            {
+              "str": "GOMEZ",
+              "position": 112.6366547979798
+            },
+            {
+              "str": "MORTICIA",
+              "position": 112.68816994949495
+            },
+            {
+              "str": "GOMEZ",
+              "position": 112.77392752525253
+            },
+            {
+              "str": "#21 LET'S LIVE BEFORE WE DIE",
+              "position": 112.84604873737374
+            },
+            {
+              "str": "GOMEZ (CON’T)",
+              "position": 113.10453358585859
+            },
+            {
+              "str": "MORTICIA",
+              "position": 113.44786691919192
+            },
+            {
+              "str": "GOMEZ",
+              "position": 113.49938207070707
+            },
+            {
+              "str": "MORTICIA",
+              "position": 113.55089722222222
+            },
+            {
+              "str": "GOMEZ",
+              "position": 113.60241237373738
+            },
+            {
+              "str": "MORTICIA",
+              "position": 113.65392752525253
+            },
+            {
+              "str": "GOMEZ",
+              "position": 113.72241237373737
+            },
+            {
+              "str": "MORTICIA",
+              "position": 113.79120025252526
+            },
+            {
+              "str": "GOMEZ",
+              "position": 113.8596851010101
+            },
+            {
+              "str": "GOMEZ & MORTICIA",
+              "position": 114.10453358585859
+            },
+            {
+              "str": "GOMEZ",
+              "position": 114.17332146464646
+            },
+            {
+              "str": "GOMEZ & MORTICIA",
+              "position": 114.29332146464647
+            },
+            {
+              "str": "BOTH",
+              "position": 114.34483661616161
+            },
+            {
+              "str": "MORTICIA",
+              "position": 114.39635176767676
+            },
+            {
+              "str": "GOMEZ",
+              "position": 114.44786691919192
+            },
+            {
+              "str": "BOTH",
+              "position": 114.49938207070707
+            },
+            {
+              "str": "GOMEZ",
+              "position": 114.55089722222222
+            },
+            {
+              "str": "#22 TANGO DE AMOR",
+              "position": 114.69150328282828
+            },
+            {
+              "str": "GOMEZ",
+              "position": 114.8157457070707
+            },
+            {
+              "str": "MORTICIA",
+              "position": 115.10453358585859
+            }
+          ]
+        },
+        {
+          "sceneNumber": 10,
+          "startPosition": 116.10453358585859,
+          "elements": [
+            {
+              "str": "SCENE 10",
+              "position": 116.10453358585859
+            },
+            {
+              "str": "GOMEZ",
+              "position": 116.34483661616161
+            },
+            {
+              "str": "ANCESTORS",
+              "position": 116.41423055555556
+            },
+            {
+              "str": "GOMEZ",
+              "position": 116.4827154040404
+            },
+            {
+              "str": "MAL",
+              "position": 116.60513964646465
+            },
+            {
+              "str": "ALICE",
+              "position": 116.69120025252525
+            },
+            {
+              "str": "GOMEZ",
+              "position": 116.7596851010101
+            },
+            {
+              "str": "WEDNESDAY",
+              "position": 116.8627154040404
+            },
+            {
+              "str": "MORTICIA",
+              "position": 117.15604873737374
+            },
+            {
+              "str": "WEDNESDAY",
+              "position": 117.20756388888888
+            },
+            {
+              "str": "MORTICIA",
+              "position": 117.25907904040405
+            },
+            {
+              "str": "WEDNESDAY",
+              "position": 117.3105941919192
+            },
+            {
+              "str": "MORTICIA",
+              "position": 117.39635176767676
+            },
+            {
+              "str": "LUCAS",
+              "position": 117.46483661616162
+            },
+            {
+              "str": "WEDNESDAY",
+              "position": 117.51635176767677
+            },
+            {
+              "str": "MORTICIA",
+              "position": 117.56786691919191
+            },
+            {
+              "str": "GOMEZ",
+              "position": 117.6366547979798
+            },
+            {
+              "str": "MORTICIA",
+              "position": 117.70513964646464
+            },
+            {
+              "str": "GOMEZ",
+              "position": 117.75665479797979
+            },
+            {
+              "str": "MORTICIA",
+              "position": 117.80816994949495
+            },
+            {
+              "str": "GOMEZ",
+              "position": 117.86029116161616
+            },
+            {
+              "str": "GOMEZ (CON’T)",
+              "position": 119.13877601010101
+            },
+            {
+              "str": "MORTICIA",
+              "position": 119.20756388888888
+            },
+            {
+              "str": "WEDNESDAY",
+              "position": 119.25907904040405
+            },
+            {
+              "str": "PUGSLEY",
+              "position": 119.32756388888889
+            },
+            {
+              "str": "WEDNESDAY",
+              "position": 119.37907904040404
+            },
+            {
+              "str": "GOMEZ",
+              "position": 119.4305941919192
+            },
+            {
+              "str": "#23 FINALE: MOVE TOWARD THE DARKNESS",
+              "position": 119.5196851010101
+            },
+            {
+              "str": "LURCH",
+              "position": 119.60847297979798
+            },
+            {
+              "str": "MORTICIA & WEDNESDAY",
+              "position": 119.78029116161616
+            },
+            {
+              "str": "ANCESTORS",
+              "position": 119.848776010101
+            },
+            {
+              "str": "MORTICIA & WEDNESDAY",
+              "position": 120.10453358585859
+            },
+            {
+              "str": "ANCESTORS",
+              "position": 120.15604873737374
+            },
+            {
+              "str": "MORTICIA/WEDNESDAY/ANCESTORS",
+              "position": 120.20756388888888
+            },
+            {
+              "str": "GOMEZ/MORTICIA/MAL/ALICE/LUCAS/WED",
+              "position": 120.25907904040405
+            },
+            {
+              "str": "GOMEZ/MORTICIA/WEDNESDAY/LURCH",
+              "position": 120.32756388888889
+            },
+            {
+              "str": "GOMEZ",
+              "position": 120.46483661616162
+            },
+            {
+              "str": "FESTER",
+              "position": 120.51635176767677
+            },
+            {
+              "str": "MORTICIA",
+              "position": 120.56786691919191
+            },
+            {
+              "str": "ALICE",
+              "position": 120.61938207070708
+            },
+            {
+              "str": "FESTER",
+              "position": 120.67089722222222
+            },
+            {
+              "str": "WEDNESDAY",
+              "position": 121.10453358585859
+            },
+            {
+              "str": "LUCAS",
+              "position": 121.17332146464646
+            },
+            {
+              "str": "WEDNESDAY",
+              "position": 121.22453358585858
+            },
+            {
+              "str": "MAL",
+              "position": 121.27604873737374
+            },
+            {
+              "str": "ALICE",
+              "position": 121.34483661616161
+            },
+            {
+              "str": "MAL",
+              "position": 121.39635176767676
+            },
+            {
+              "str": "WEDNESDAY/LUCAS/MAL/ALICE",
+              "position": 121.44786691919192
+            },
+            {
+              "str": "FESTER",
+              "position": 121.61938207070708
+            },
+            {
+              "str": "GOMEZ",
+              "position": 121.82544267676768
+            },
+            {
+              "str": "LURCH",
+              "position": 121.87695782828283
+            },
+            {
+              "str": "LURCH & 3 FEMALE ANCESTORS",
+              "position": 122.10453358585859
+            },
+            {
+              "str": "ALL",
+              "position": 122.15604873737374
+            },
+            {
+              "str": "ANCESTORS",
+              "position": 122.39635176767676
+            },
+            {
+              "str": "ADDAMS & BEINEKES",
+              "position": 122.44786691919192
+            },
+            {
+              "str": "ANCESTORS",
+              "position": 122.49938207070707
+            },
+            {
+              "str": "ADDAMS & BEINEKES",
+              "position": 122.55089722222222
+            },
+            {
+              "str": "ANCESTORS",
+              "position": 122.60241237373738
+            },
+            {
+              "str": "ALL",
+              "position": 122.65392752525253
+            },
+            {
+              "str": "ADDAMS/BEINEKES/FEMALE ANCESTORS",
+              "position": 122.70513964646464
+            },
+            {
+              "str": "MALE ANCESTORS",
+              "position": 122.75665479797979
+            },
+            {
+              "str": "ALL",
+              "position": 122.80816994949495
+            },
+            {
+              "str": "ADDAMS & BEINEKES",
+              "position": 123.10453358585859
+            },
+            {
+              "str": "ANCESTORS",
+              "position": 123.15604873737374
+            },
+            {
+              "str": "ALL",
+              "position": 123.20756388888888
+            },
+            {
+              "str": "GOMEZ",
+              "position": 123.34483661616161
+            },
+            {
+              "str": "GOMEZ & MORTICIA",
+              "position": 123.4305941919192
+            },
+            {
+              "str": "LURCH",
+              "position": 123.48210934343435
+            },
+            {
+              "str": "ANCESTORS/ADDAMS/BEINEKES",
+              "position": 123.65392752525253
+            },
+            {
+              "str": "GOMEZ",
+              "position": 123.70513964646464
+            },
+            {
+              "str": "MORTICIA",
+              "position": 123.75665479797979
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "actNumber": 3,
+      "startPosition": 123.89392752525252,
+      "scenes": []
+    }
+  ]
+}
