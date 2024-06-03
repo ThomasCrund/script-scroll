@@ -4,6 +4,7 @@ import { Server } from 'socket.io';
 import ScrollManager from './ScrollManager.js';
 import { ClientToServerEvents, InterServerEvents, ServerToClientEvents, SocketData } from '../../interface/Socket';
 import { ScrollUpdate } from '../../interface/Scroll';
+import ScriptManager from './ScriptManager.js';
 
 const app = express();
 const server = createServer(app);
@@ -13,6 +14,7 @@ const io = new Server<ClientToServerEvents, ServerToClientEvents, InterServerEve
     }
 });
 const scrollManager = new ScrollManager();
+const scriptManager = new ScriptManager();
 
 app.get('/', (req, res) => {
   res.send('<h1>Hello world</h1>');
@@ -21,6 +23,7 @@ app.get('/', (req, res) => {
 io.on('connection', (socket) => {
     console.log('a user connected', socket.id);
     socket.emit('scrollInformation', scrollManager.toScrollInformation());
+    socket.emit('scriptBreakup', scriptManager.getScriptBreakup());
 
     socket.on('scrollUpdate', (scrollData: ScrollUpdate) => {
       scrollManager.updateScroll(socket.id, scrollData);

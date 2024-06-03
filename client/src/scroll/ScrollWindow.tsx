@@ -4,6 +4,8 @@ import 'react-pdf/dist/esm/Page/TextLayer.css';
 import { socket } from '../socket';
 import { ScrollInformation, ScrollMode, ScrollUpdate } from "../../../interface/Scroll";
 import PdfViewer from "./PdfViewer";
+import OverviewBar from "./OverviewBar";
+import { Script } from "../../../interface/Script";
 
 export interface ScrollData {
     scrollPosition: number;
@@ -19,6 +21,7 @@ function ScrollWindow() {
     const [clientCurrentScrollPosition, setCurrentScrollPosition] = useState<ScrollData>({scrollPosition: 0, timeStampClient: Date.now(), clientDriving: false});
     const [scrollControlMode, setControlScrollMode] = useState<ScrollMode>("Following");
     const [lastSentUpdate, setLastSentUpdate] = useState<ScrollUpdate | undefined>();
+    const [scriptBreakup, setScriptBreakup] = useState<Script>({numPages: 0, acts: []});
     const pageHeight = 1000
 
     // Return to following mode
@@ -56,11 +59,18 @@ function ScrollWindow() {
 
             }
         }
+
+        function onScriptUpdate(script: Script) {
+            console.log(script);
+            setScriptBreakup(script);
+        }
         
         socket.on('scrollInformation', onScrollUpdate);
+        socket.on('scriptBreakup', onScriptUpdate);
 
         return () => {
             socket.off('scrollInformation', onScrollUpdate);
+            socket.off('scriptBreakup', onScriptUpdate);
         };
     })
 
@@ -84,11 +94,17 @@ function ScrollWindow() {
         // Calculate new scroll position
         const newScroll = clientCurrentScrollPosition.scrollPosition + e.deltaY / pageHeight;
 
+        setPosition(newScroll)
+
+    };
+
+    const setPosition = (position: number) => {
+        
         // create update to send to server
         let scrollUpdate: ScrollUpdate = {
             timeStampClient: Date.now(),
             scrollMode: scrollControlMode,
-            newScrollPosition: newScroll,
+            newScrollPosition: position,
             lastScrollPosition: clientCurrentScrollPosition.scrollPosition,
             lastScrollServerTimeStamp: clientCurrentScrollPosition.timeStampServer ?? 0
         }
@@ -101,7 +117,7 @@ function ScrollWindow() {
 
         // Create new position for client side state (this will update PdfViewer component and other scrolling components)
         let newScrollPosition = { 
-            scrollPosition: newScroll, 
+            scrollPosition: position, 
             timeStampClient: scrollUpdate.timeStampClient,
             clientDriving: true
         }
@@ -117,8 +133,7 @@ function ScrollWindow() {
         socket.emit("scrollUpdate", scrollUpdate);
         setCurrentScrollPosition({ sentToServer: true, ...newScrollPosition });
         setLastSentUpdate(scrollUpdate);
-
-    };
+    }
 
     return (
         <div>
@@ -126,18 +141,33 @@ function ScrollWindow() {
                 <button onClick={e => setControlScrollMode(mode => mode === "Driving" ? "Following" : "Driving")}>Control Mode: {scrollControlMode}</button>
             </div>
             <div
-                className="scrollable-element"
                 style={{
                     height: "100vh",
                     overflowY: "hidden",
-                    border: "1px solid #ccc",
-                    width: 800,
-                    position: "relative"
+                    display: "flex"
                 }}
                 onWheel={handleScroll}
             >
-                <PdfViewer pageHeight={pageHeight} handleScroll={handleScroll} scrollPosition={clientCurrentScrollPosition} />
+                <OverviewBar 
+                    scrollPosition={clientCurrentScrollPosition} 
+                    height={700} 
+                    scriptBreakup={scriptBreakup} 
+                    handleSetPosition={setPosition}
+                />
+                <div
+                    className="scrollable-element"
+                    style={{
+                        height: "100vh",
+                        overflowY: "hidden",
+                        border: "1px solid #ccc",
+                        width: 800,
+                        position: "relative"
+                    }}
+                >
+                    <PdfViewer pageHeight={pageHeight} handleScroll={handleScroll} scrollPosition={clientCurrentScrollPosition} />
+                </div>
             </div>
+            
         </div>
     );
 }

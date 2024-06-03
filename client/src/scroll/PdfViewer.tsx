@@ -70,7 +70,6 @@ export default function PdfViewer({
         console.log("number of pages", proxy.numPages);
     }
 
-    console.log(numPages, showingPages)
 
     return (
         <Document file={'./sample.pdf'} onLoadSuccess={onDocumentLoadSuccess} options={options}>
