@@ -1,22 +1,27 @@
 import React, { MouseEvent, useRef, useState } from 'react'
 import { ScrollData } from './ScrollWindow'
 import { Act, Script } from '../../../interface/Script'
+import { ScrollInformation, ScrollMode } from '../../../interface/Scroll'
 
 interface OverviewBarProps {
-    scrollPosition: ScrollData,
-    scriptBreakup: Script
-    handleSetPosition: (position: number) => void
-    height: number
+  scrollPosition: ScrollData,
+  scriptBreakup: Script
+  handleSetPosition: (position: number) => void
+  height: number,
+  scrollInformation: ScrollInformation | undefined
+  scrollMode: ScrollMode
 }
 
 export default function OverviewBar({
-    scrollPosition,
-    height,
-    scriptBreakup,
-    handleSetPosition
+  scrollPosition,
+  height,
+  scriptBreakup,
+  handleSetPosition,
+  scrollInformation,
+  scrollMode
 }: OverviewBarProps) {
   const ref = useRef<HTMLDivElement>(null);
-  const [ hoverPos, setHoverPos ] = useState(-1);
+  const [hoverPos, setHoverPos] = useState(-1);
 
   const calculateHeightOfScene = (act: Act, sceneIndex: number): number => {
     const lengthOfAct = (act.scenes[sceneIndex + 1]?.startPosition ?? scriptBreakup.numPages) - act.scenes[sceneIndex].startPosition
@@ -32,6 +37,17 @@ export default function OverviewBar({
     const pos = e.clientY - box.y;
     setHoverPos(pos * scriptBreakup.numPages / height)
   }
+
+  const calculatePosition = (pagePos: number) => {
+    return pagePos * height / ((scriptBreakup.numPages === 0) ? 1 : scriptBreakup.numPages)
+  }
+
+  let redPosition = scrollPosition.scrollPosition;
+  if (scrollInformation !== undefined && scrollMode !== "Driving") {
+    console.log(scrollInformation)
+    redPosition = scrollInformation.master.scrollPosition ?? redPosition
+  }
+  console.log(scriptBreakup.numPages, redPosition)
 
   return (
     <div
@@ -55,8 +71,18 @@ export default function OverviewBar({
         height: 0,
         borderTop: "1px solid red",
         borderBottom: "1px solid red",
-        top: scrollPosition.scrollPosition * height / scriptBreakup.numPages
+        top: calculatePosition(redPosition)
       }}></div>
+
+      {scrollMode === "Inspecting" ?
+        <div style={{
+          position: "relative",
+          width: 50,
+          height: 0,
+          borderTop: "1px solid orange",
+          borderBottom: "1px solid orange",
+          top: calculatePosition(scrollPosition.scrollPosition)
+        }}></div> : null}
 
       <div style={{
         position: "relative",
@@ -64,19 +90,20 @@ export default function OverviewBar({
         height: 0,
         borderTop: "1px solid green",
         borderBottom: "1px solid green",
-        top: hoverPos * height / scriptBreakup.numPages
+        top: calculatePosition(hoverPos)
       }}></div>
 
       {
         scriptBreakup.acts.map((act, index) => {
           return act.scenes.map((scene, index) => (
             <div
+              key={`${act.actNumber}.${scene.sceneNumber}`}
               style={{
                 height: calculateHeightOfScene(act, index),
                 width: 50,
                 borderTop: "1px solid black",
                 position: "absolute",
-                top: scene.startPosition * height / scriptBreakup.numPages
+                top: calculatePosition(scene.startPosition)
               }}
             >
               Scene {scene.sceneNumber}
@@ -85,13 +112,13 @@ export default function OverviewBar({
         })
       }
       <div style={{
-            width: 50,
-            height: 0,
-            borderTop: "1px solid black",
-            position: "absolute",
-            top: scriptBreakup.numPages * height / scriptBreakup.numPages
+        width: 50,
+        height: 0,
+        borderTop: "1px solid black",
+        position: "absolute",
+        top: calculatePosition(scriptBreakup.numPages)
 
-          }}>
+      }}>
       </div>
     </div>
   )

@@ -153,6 +153,8 @@ function ScrollWindow() {
                     height={700} 
                     scriptBreakup={scriptBreakup} 
                     handleSetPosition={setPosition}
+                    scrollInformation={latestServerScrollInformation}
+                    scrollMode={scrollControlMode}
                 />
                 <div
                     className="scrollable-element"
