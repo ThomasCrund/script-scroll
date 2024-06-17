@@ -1,4 +1,4 @@
-import React, { useEffect, useState, WheelEvent } from "react";
+import React, { TouchEvent, useEffect, useState, WheelEvent } from "react";
 import 'react-pdf/dist/esm/Page/AnnotationLayer.css';
 import 'react-pdf/dist/esm/Page/TextLayer.css';
 import { socket } from '../socket';
@@ -6,6 +6,7 @@ import { ScrollInformation, ScrollMode, ScrollUpdate } from "../../../interface/
 import PdfViewer from "./PdfViewer";
 import OverviewBar from "./OverviewBar";
 import { Script } from "../../../interface/Script";
+import CursorLine from "./CursorLine";
 
 export interface ScrollData {
     scrollPosition: number;
@@ -16,13 +17,16 @@ export interface ScrollData {
 }
 
 function ScrollWindow() {
-    
+
     const [latestServerScrollInformation, setLatestScrollInformation] = useState<ScrollInformation | undefined>(undefined);
-    const [clientCurrentScrollPosition, setCurrentScrollPosition] = useState<ScrollData>({scrollPosition: 0, timeStampClient: Date.now(), clientDriving: false});
+    const [clientCurrentScrollPosition, setCurrentScrollPosition] = useState<ScrollData>({ scrollPosition: 0, timeStampClient: Date.now(), clientDriving: false });
     const [scrollControlMode, setControlScrollMode] = useState<ScrollMode>("Following");
     const [lastSentUpdate, setLastSentUpdate] = useState<ScrollUpdate | undefined>();
-    const [scriptBreakup, setScriptBreakup] = useState<Script>({numPages: 0, acts: []});
-    const pageHeight = 1000
+    const [scriptBreakup, setScriptBreakup] = useState<Script>({ numPages: 0, acts: [] });
+    const [scriptFIle, setScriptFIle] = useState<string>("normal");
+    const [touchId, setTouchId] = useState({ id: -1, yLast: 0 });
+    const pageHeight = 1000;
+    const offset = 400;
 
     // Return to following mode
     const returnToMaster = () => {
@@ -64,7 +68,7 @@ function ScrollWindow() {
             console.log(script);
             setScriptBreakup(script);
         }
-        
+
         socket.on('scrollInformation', onScrollUpdate);
         socket.on('scriptBreakup', onScriptUpdate);
 
@@ -80,11 +84,40 @@ function ScrollWindow() {
             if (e.key === " ") {
                 returnToMaster();
             }
-        } 
+        }
         document.addEventListener("keydown", keyCheck);
 
         return () => {
-            document.removeEventListener("keydown", keyCheck);   
+            document.removeEventListener("keydown", keyCheck);
+        }
+    })
+
+    const touchStart = (e: globalThis.TouchEvent) => {
+        console.log("touchStart", e);
+        setTouchId({ id: e.touches[0].identifier, yLast: e.touches[0].pageY });
+    }
+
+    const touchEnd = () => {
+        setTouchId({ id: -1, yLast: 0 });
+    }
+
+    const touchMove = (e: globalThis.TouchEvent) => {
+        if (touchId.id !== -1) {
+            const delta = e.touches[0].pageY - touchId.yLast
+            console.log(touchId, delta)
+            setPosition(clientCurrentScrollPosition.scrollPosition - delta / pageHeight)
+            setTouchId(touch => ({ id: touch.id, yLast: e.touches[0].pageY }));
+        }
+    }
+
+    useEffect(() => {
+        window.addEventListener('touchend', touchEnd);
+        window.addEventListener('touchmove', touchMove)
+        window.addEventListener('touchstart', touchStart)
+        return () => {
+            window.removeEventListener('touchend', touchEnd);
+            window.removeEventListener('touchmove', touchMove);
+            window.removeEventListener('touchstart', touchStart)
         }
     })
 
@@ -99,7 +132,7 @@ function ScrollWindow() {
     };
 
     const setPosition = (position: number) => {
-        
+
         // create update to send to server
         let scrollUpdate: ScrollUpdate = {
             timeStampClient: Date.now(),
@@ -116,8 +149,8 @@ function ScrollWindow() {
         }
 
         // Create new position for client side state (this will update PdfViewer component and other scrolling components)
-        let newScrollPosition = { 
-            scrollPosition: position, 
+        let newScrollPosition = {
+            scrollPosition: position,
             timeStampClient: scrollUpdate.timeStampClient,
             clientDriving: true
         }
@@ -125,7 +158,7 @@ function ScrollWindow() {
         // Check whether a update was recently and skip if needed to reduce network traffic when not needed
         if (lastSentUpdate?.timeStampClient !== undefined && lastSentUpdate?.timeStampClient + 100 >= scrollUpdate.timeStampClient) {
             console.log("Skipped Update");
-            setCurrentScrollPosition({ sentToServer: false, ...newScrollPosition});
+            setCurrentScrollPosition({ sentToServer: false, ...newScrollPosition });
             return;
         }
 
@@ -135,11 +168,77 @@ function ScrollWindow() {
         setLastSentUpdate(scrollUpdate);
     }
 
+    let changeScriptFile = () => {
+        setScriptFIle(fileName => {
+            if (fileName === "normal") return "sound";
+            if (fileName === "sound") return "lighting";
+            if (fileName === "lighting") return "normal";
+            return "normal"
+        })
+    }
+
+    let changeControlMode = () => {
+        switch (scrollControlMode) {
+            case "Driving":
+                setControlScrollMode("Following");
+                break;
+            case "Inspecting":
+                returnToMaster()
+                break;
+            case "Following":
+                setControlScrollMode("Driving");
+                break;
+
+            default:
+                break;
+        }
+    }
+
+    let redPosition = clientCurrentScrollPosition.scrollPosition;
+    if (latestServerScrollInformation !== undefined && scrollControlMode !== "Driving") {
+        redPosition = latestServerScrollInformation.master.scrollPosition ?? redPosition
+    }
+
     return (
         <div>
-            <div>
-                <button onClick={e => setControlScrollMode(mode => mode === "Driving" ? "Following" : "Driving")}>Control Mode: {scrollControlMode}</button>
+            <div style={{
+                display: "flex"
+            }}>
+                <div
+                    style={{
+                        border: "0px",
+                        height: "100%",
+                        width: 200,
+                        cursor: "pointer",
+                        fontSize: 25,
+                        zIndex: 101,
+                        padding: 10,
+                        userSelect: "none",
+                        marginLeft: 2,
+                        backgroundColor: "#f9e6ff",
+                    }}
+                    onClick={changeScriptFile}>
+                    Script: {scriptFIle}
+                </div>
+                <div
+                    style={{
+                        border: "0px",
+                        height: "100%",
+                        width: 150,
+                        cursor: "pointer",
+                        fontSize: 25,
+                        zIndex: 101,
+                        padding: 10,
+                        userSelect: "none",
+                        marginLeft: 2,
+                        backgroundColor: scrollControlMode === "Driving" ? "red" : (scrollControlMode === "Inspecting" ? "orange" : "#ffc9c9"),
+                    }}
+                    onClick={changeControlMode}
+                >
+                    {scrollControlMode}
+                </div>
             </div>
+
             <div
                 style={{
                     height: "100vh",
@@ -148,10 +247,10 @@ function ScrollWindow() {
                 }}
                 onWheel={handleScroll}
             >
-                <OverviewBar 
-                    scrollPosition={clientCurrentScrollPosition} 
-                    height={700} 
-                    scriptBreakup={scriptBreakup} 
+                <OverviewBar
+                    scrollPosition={clientCurrentScrollPosition}
+                    height={700}
+                    scriptBreakup={scriptBreakup}
                     handleSetPosition={setPosition}
                     scrollInformation={latestServerScrollInformation}
                     scrollMode={scrollControlMode}
@@ -161,15 +260,34 @@ function ScrollWindow() {
                     style={{
                         height: "100vh",
                         overflowY: "hidden",
-                        border: "1px solid #ccc",
+                        border: `2px solid ${scrollControlMode === "Driving" ? "red" : (scrollControlMode === "Inspecting" ? "orange" : "black")}`,
                         width: 800,
                         position: "relative"
                     }}
                 >
-                    <PdfViewer pageHeight={pageHeight} handleScroll={handleScroll} scrollPosition={clientCurrentScrollPosition} />
+                    <PdfViewer
+                        pageHeight={pageHeight}
+                        handleScroll={handleScroll}
+                        scrollPosition={clientCurrentScrollPosition}
+                        offset={offset}
+                        pdfFileName={"./" + scriptFIle + ".pdf"}
+                    />
+                    <CursorLine setPosition={redPosition} scrollPosition={clientCurrentScrollPosition} offset={offset} colour="Red" pageHeight={pageHeight} lineWidth={4} />
+                    {scrollControlMode === "Inspecting" ?
+                        <CursorLine setPosition={clientCurrentScrollPosition.scrollPosition} scrollPosition={clientCurrentScrollPosition} offset={offset} colour="Orange " pageHeight={pageHeight} lineWidth={4} />
+                        : null
+                    }
+                    <div
+                        style={{
+                            position: "absolute",
+                            top: 0,
+                            right: 0
+                        }}
+                    >
+                    </div>
                 </div>
             </div>
-            
+
         </div>
     );
 }

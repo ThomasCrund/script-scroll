@@ -18,7 +18,9 @@ interface PdfViewerProps {
     handleScroll: (e: WheelEvent<HTMLDivElement>) => void,
     scrollPosition: ScrollData,
     pageHeight?: number
-    pageBufferSize?: number
+    pageBufferSize?: number,
+    offset: number,
+    pdfFileName?: string
 }
 
 const getPageNumberOnScreen = (scrollPosition: ScrollData) => {
@@ -29,7 +31,9 @@ export default function PdfViewer({
     handleScroll,
     scrollPosition,
     pageHeight = 1000,
-    pageBufferSize = 3
+    pageBufferSize = 3,
+    offset,
+    pdfFileName = "normal.pdf"
 }: PdfViewerProps) {
     const [ numPages, setNumPages ] = useState(0);
     const [ currentPageNum, setPageNum ] = useState(0);
@@ -62,7 +66,7 @@ export default function PdfViewer({
     }, [scrollPosition, currentPageNum, numPages, pageBufferSize, showingPages])
 
     const getOffsetForPage = (pageNumber: number) => {
-        return -((scrollPosition.scrollPosition - pageNumber) * pageHeight)
+        return offset -((scrollPosition.scrollPosition - pageNumber) * pageHeight)
     }
 
     const onDocumentLoadSuccess = (proxy: PDFDocumentProxy): void => {
@@ -72,7 +76,7 @@ export default function PdfViewer({
 
 
     return (
-        <Document file={'./sample.pdf'} onLoadSuccess={onDocumentLoadSuccess} options={options}>
+        <Document file={pdfFileName} onLoadSuccess={onDocumentLoadSuccess} options={options}>
             {Array.from(showingPages, (el, index) => (
                 <div key={`page_${el + 1}`} style={{ width: 800, position: "absolute", top: getOffsetForPage(el), transition: scrollPosition.clientDriving ? "top 0.05s" : "top 0.2s" }}>
                     <Page

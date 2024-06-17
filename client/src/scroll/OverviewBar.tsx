@@ -54,7 +54,6 @@ export default function OverviewBar({
       style={{
         width: 50,
         border: "1px solid black",
-        borderBottom: "0px solid black",
         fontSize: 12,
         position: "relative",
         cursor: "pointer",
@@ -94,7 +93,7 @@ export default function OverviewBar({
       }}></div>
 
       {
-        scriptBreakup.acts.map((act, index) => {
+        scriptBreakup.acts.map((act) => {
           return act.scenes.map((scene, index) => (
             <div
               key={`${act.actNumber}.${scene.sceneNumber}`}
