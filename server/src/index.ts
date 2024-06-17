@@ -14,19 +14,29 @@ const io = new Server<ClientToServerEvents, ServerToClientEvents, InterServerEve
     }
 });
 const scrollManager = new ScrollManager();
-const scriptManager = new ScriptManager();
+const scriptManager = new ScriptManager(scrollManager);
 
 app.get('/', (req, res) => {
   res.send('<h1>Hello world</h1>');
 });
 
+function updateScriptPosition() {
+  if (scriptManager.changed) {
+    const position = scriptManager.getCurrentPosition();
+    io.emit('scriptPosition', scriptManager.getCurrentPosition())
+  }
+}
+
 io.on('connection', (socket) => {
     console.log('a user connected', socket.id);
     socket.emit('scrollInformation', scrollManager.toScrollInformation());
     socket.emit('scriptBreakup', scriptManager.getScriptBreakup());
+    io.emit('scriptPosition', scriptManager.getCurrentPosition())
 
     socket.on('scrollUpdate', (scrollData: ScrollUpdate) => {
       scrollManager.updateScroll(socket.id, scrollData);
+      scriptManager.updateCurrentPosition();
+      updateScriptPosition();
       io.emit('scrollInformation', scrollManager.toScrollInformation());
     });
 });

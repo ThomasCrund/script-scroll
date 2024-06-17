@@ -14,10 +14,17 @@ export interface Act {
 export interface Scene {
     sceneNumber: number
     startPosition: number
-    element: ScriptElement[]
+    elements: ScriptElement[]
 }
 
 export interface ScriptElement {
     str: string
     position: number
+}
+
+export interface ScriptPosition {
+    actNumber: number
+    sceneNumber: number
+    elementNumber: number
+    scrollPosition: number
 }

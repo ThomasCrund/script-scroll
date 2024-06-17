@@ -23,7 +23,7 @@ function ScrollWindow() {
     const [scrollControlMode, setControlScrollMode] = useState<ScrollMode>("Following");
     const [lastSentUpdate, setLastSentUpdate] = useState<ScrollUpdate | undefined>();
     const [scriptBreakup, setScriptBreakup] = useState<Script>({ numPages: 0, acts: [] });
-    const [scriptFIle, setScriptFIle] = useState<string>("normal");
+    const [scriptFIle, setScriptFIle] = useState<string>("soundnew");
     const [touchId, setTouchId] = useState({ id: -1, yLast: 0 });
     const pageHeight = 1000;
     const offset = 400;
@@ -52,7 +52,7 @@ function ScrollWindow() {
                     clientDriving: scroll.master.scrollUpdate?.uid === socket.id
                 })
             } else if (scrollControlMode === "Driving") {
-                if (clientCurrentScrollPosition.timeStampClient < Date.now() - 100 && !(scroll.master.scrollUpdate?.uid === socket.id)) {
+                if (clientCurrentScrollPosition.timeStampClient < Date.now() - 300 && !(scroll.master.scrollUpdate?.uid === socket.id)) {
                     setCurrentScrollPosition({
                         scrollPosition: scroll.master.scrollPosition,
                         timeStampClient: Date.now(),
@@ -172,7 +172,8 @@ function ScrollWindow() {
         setScriptFIle(fileName => {
             if (fileName === "normal") return "sound";
             if (fileName === "sound") return "lighting";
-            if (fileName === "lighting") return "normal";
+            if (fileName === "lighting") return "soundnew";
+            if (fileName === "soundnew") return "normal";
             return "normal"
         })
     }
