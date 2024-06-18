@@ -20,23 +20,13 @@ app.get('/', (req, res) => {
   res.send('<h1>Hello world</h1>');
 });
 
-function updateScriptPosition() {
-  if (scriptManager.changed) {
-    const position = scriptManager.getCurrentPosition();
-    io.emit('scriptPosition', scriptManager.getCurrentPosition())
-  }
-}
-
 io.on('connection', (socket) => {
     console.log('a user connected', socket.id);
     socket.emit('scrollInformation', scrollManager.toScrollInformation());
-    socket.emit('scriptBreakup', scriptManager.getScriptBreakup());
-    io.emit('scriptPosition', scriptManager.getCurrentPosition())
+    scriptManager.registerEvents(io, socket);
 
     socket.on('scrollUpdate', (scrollData: ScrollUpdate) => {
       scrollManager.updateScroll(socket.id, scrollData);
-      scriptManager.updateCurrentPosition();
-      updateScriptPosition();
       io.emit('scrollInformation', scrollManager.toScrollInformation());
     });
 });
@@ -44,3 +34,5 @@ io.on('connection', (socket) => {
 server.listen(4000, () => {
   console.log('server running at http://localhost:4000');
 });
+
+let interval = setInterval(() => scriptManager.loop(io), 500);

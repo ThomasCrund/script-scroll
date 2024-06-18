@@ -11,6 +11,10 @@ export interface ServerToClientEvents {
 
 export interface ClientToServerEvents {
     scrollUpdate: (scrollData: ScrollUpdate) => void
+    recordingStart: (name: string) => void
+    recordingStop: () => void
+    joinAdminDisplayRoom: () => void
+    leaveAdminDisplayRoom: () => void
 }
 
 export interface InterServerEvents {}

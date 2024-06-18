@@ -3,7 +3,7 @@ import { ScriptPosition } from '../../interface/Script';
 import { socket } from './socket';
 
 export default function Display() {
-  const [ scriptPosition, setScriptPosition] = useState<ScriptPosition>({ actNumber: 0, sceneNumber: 0, elementNumber: 0, scrollPosition: 0 });
+  const [ scriptPosition, setScriptPosition] = useState<ScriptPosition>({ actNumber: 0, sceneNumber: 0, elementNumber: 0, scrollPosition: 0, timestamp: Date.now() });
 
   
   useEffect(() => {
@@ -12,6 +12,7 @@ export default function Display() {
     }
 
     socket.on('scriptPosition', onScriptPosition);
+    socket.emit('joinAdminDisplayRoom');
 
     return () => {
       socket.off('scriptPosition', onScriptPosition);

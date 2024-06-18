@@ -20,11 +20,23 @@ export interface Scene {
 export interface ScriptElement {
     str: string
     position: number
+    times?: {
+        startTime: number
+        lengthTime: number
+        previous: {
+            actNumber: number
+            sceneNumber: number
+            elementNumber: number
+            timesNumber: number
+        }
+    }[]
 }
+
 
 export interface ScriptPosition {
     actNumber: number
     sceneNumber: number
     elementNumber: number
     scrollPosition: number
+    timestamp: number
 }
