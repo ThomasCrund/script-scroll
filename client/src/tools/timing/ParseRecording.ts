@@ -1,14 +1,5 @@
 import { act } from "react";
-import { Act, Scene, Script, ScriptElement } from "../../../../interface/Script";
-
-export type PredictionType = "Recorded" | "CalculatedMerge" | "CalculatedAverage" | "Sum" | "NotCalculated" | "Customised" | "Interpolate"
-
-export interface ExpectedLength {
-    type: PredictionType
-    predictedLength: number
-    preCalculationValue?:  number,
-    textValue?: string,
-}
+import { Act, ExpectedLength, Scene, Script, ScriptElement } from "../../../../interface/Script";
 
 export interface ScriptRecordingData extends Script {
     acts: ActWithRecording[]

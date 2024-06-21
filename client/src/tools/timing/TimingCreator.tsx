@@ -1,6 +1,7 @@
 import React, { ChangeEvent, act, useCallback, useEffect, useState } from 'react'
 import AddRecording from './AddRecording'
-import { ExpectedLength, ParseRecording, ScriptRecordingData } from './ParseRecording'
+import { ParseRecording, ScriptRecordingData } from './ParseRecording'
+import { ExpectedLength } from '../../../../interface/Script';
 
 
 
