@@ -23,7 +23,7 @@ function ScrollWindow() {
     const [scrollControlMode, setControlScrollMode] = useState<ScrollMode>("Following");
     const [lastSentUpdate, setLastSentUpdate] = useState<ScrollUpdate | undefined>();
     const [scriptBreakup, setScriptBreakup] = useState<Script>({ numPages: 0, acts: [] });
-    const [scriptFIle, setScriptFIle] = useState<string>("soundnew");
+    const [scriptFIle, setScriptFIle] = useState<string>("sound3");
     const [touchId, setTouchId] = useState({ id: -1, yLast: 0 });
     const pageHeight = 1000;
     const offset = 200;
@@ -173,7 +173,8 @@ function ScrollWindow() {
             if (fileName === "normal") return "sound";
             if (fileName === "sound") return "lighting";
             if (fileName === "lighting") return "soundnew";
-            if (fileName === "soundnew") return "normal";
+            if (fileName === "soundnew") return "sound3";
+            if (fileName === "sound3") return "normal";
             return "normal"
         })
     }
