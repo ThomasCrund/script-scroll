@@ -21,7 +21,7 @@
               "position": 6.121806313131313,
               "str": "SCENE 1:",
               "expectedLength": {
-                "predictedLength": 72000,
+                "predictedLength": 0,
                 "type": "Customised",
                 "textValue": "72"
               }
@@ -30,7 +30,7 @@
               "position": 6.159382070707071,
               "str": "#1 OVERTURE/PROLOGUE",
               "expectedLength": {
-                "predictedLength": 72260,
+                "predictedLength": 140260,
                 "type": "CalculatedAverage"
               }
             },

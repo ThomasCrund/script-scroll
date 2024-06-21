@@ -22,3 +22,17 @@ code {
 #app {
   overflow: hidden;
 }
+
+.display td {
+  padding: 5px;
+}
+
+.display {
+  margin: 30px;
+  border-collapse: collapse;
+}
+
+.bordered {
+  border: 1px solid white;
+  margin: 0px;
+}
