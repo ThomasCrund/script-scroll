@@ -10,7 +10,7 @@ export default function Display() {
     function onScriptPosition(position: ScriptPosition) {
       setScriptPosition(position);
     }
-
+    
     socket.on('scriptPosition', onScriptPosition);
     socket.emit('joinAdminDisplayRoom');
 

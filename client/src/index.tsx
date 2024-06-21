@@ -9,6 +9,7 @@ import {
 } from "react-router-dom";
 import Admin from './Admin';
 import Display from './Display';
+import TimingCreator from './tools/timing/TimingCreator';
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
@@ -26,6 +27,10 @@ const router = createBrowserRouter([
   {
     path: "/display",
     element: <Display />,
+  },
+  {
+    path: "/prediction",
+    element: <TimingCreator />,
   },
 ]);
  
