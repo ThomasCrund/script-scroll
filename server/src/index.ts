@@ -8,9 +8,11 @@ import ScriptManager from './ScriptManager.js';
 
 const app = express();
 const server = createServer(app);
+const hosts = Array.apply(null, Array(254)).map((a, index) => `http://10.93.131.${index}:3000`);
+console.log(hosts);
 const io = new Server<ClientToServerEvents, ServerToClientEvents, InterServerEvents, SocketData>(server, {
     cors: {
-        origin: ["http://localhost:3000", "http://10.93.131.105:3000", "http://10.93.131.108:3000", "http://10.93.131.113:3000"]
+        origin: ["http://localhost:3000", ...hosts]
     }
 });
 const scrollManager = new ScrollManager();
@@ -27,7 +29,7 @@ io.on('connection', (socket) => {
 
     socket.on('scrollUpdate', (scrollData: ScrollUpdate) => {
       scrollManager.updateScroll(socket.id, scrollData);
-      io.emit('scrollInformation', scrollManager.toScrollInformation());
+      io.volatile.emit('scrollInformation', scrollManager.toScrollInformation());
     });
 });
 
