@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import { Scene, Script, ScriptPosition } from '../../interface/Script';
 import { socket } from './socket';
-import { time } from 'console';
 
 interface SceneToShow {
   scene: Scene
@@ -44,7 +43,7 @@ export default function Display() {
     let i = 0;
     let previousTimeRemaining = 0;
     while (currentScene !== undefined && i <= 8) {
-      console.log(currentScene);
+      // console.log(currentScene);
 
       scenesToShowNew.push({
         scene: currentScene,
@@ -75,12 +74,19 @@ export default function Display() {
   useEffect(() => {
     const interval = setInterval(() => {
       setScenesToShow(scenesToShow => {
-        console.log("update time");
         return scenesToShow.map((scenesToShow, index) => {
-          if (index === 0) return scenesToShow;
-          if (scenesToShow.timeRemaining === undefined) return scenesToShow;
-          scenesToShow.timeRemaining -= 1000;
-          return scenesToShow;
+          if (index === 0) return {
+            scene: scenesToShow.scene,
+            timeRemaining: scenesToShow.timeRemaining
+          };
+          if (scenesToShow.timeRemaining === undefined) return {
+            scene: scenesToShow.scene,
+            timeRemaining: scenesToShow.timeRemaining
+          };
+          return {
+            scene: scenesToShow.scene,
+            timeRemaining: scenesToShow.timeRemaining - 1000
+          };
         })
       });
       setStartTime(currentCountdown => {
@@ -93,8 +99,12 @@ export default function Display() {
         }
       })
     }, 1000);
+    console.log("Register", interval);
 
-    return () => clearInterval(interval);
+    return () => {
+      clearInterval(interval);
+      console.log("Deregister", interval);
+    };
   }, []);
 
   const millsToText = (mills: number) => {
