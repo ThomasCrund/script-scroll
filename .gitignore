@@ -131,3 +131,5 @@ dist
 
 
 /client/public/*.pdf 
+/server/**_dump.csv
+/server/recordings/*
