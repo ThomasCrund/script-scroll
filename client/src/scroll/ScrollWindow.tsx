@@ -26,7 +26,7 @@ function ScrollWindow() {
     const [scriptFIle, setScriptFIle] = useState<string>("soundnew");
     const [touchId, setTouchId] = useState({ id: -1, yLast: 0 });
     const pageHeight = 1000;
-    const offset = 400;
+    const offset = 200;
 
     // Return to following mode
     const returnToMaster = () => {
